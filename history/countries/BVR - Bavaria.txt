@@ -1,0 +1,88 @@
+﻿capital = 52
+
+### Starting Technologies ###
+set_technology = {
+	### General ###
+	electronic_mechanical_engineering = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+
+	### Tanks ###
+	gwtank = 1
+	basic_light_tank = 1
+	basic_heavy_tank = 1
+
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	motorised_infantry = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+
+	### Air ###
+	early_fighter = 1
+	naval_bomber1 = 1
+	early_bomber = 1
+	cv_early_fighter = 1
+	cv_CAS1 = 1
+	cv_naval_bomber1 = 1
+	fighter1 = 1
+	tactical_bomber1 = 1
+	strategic_bomber1 = 1
+	CAS1 = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_technology = {
+		weltkrieg_destroyer_nonmtg = 1
+		interwar_destroyer_nonmtg = 1
+		weltkrieg_cruiser_nonmtg = 1
+		interwar_cruiser_nonmtg = 1
+		weltkrieg_submarine_nonmtg = 1
+		interwar_submarine_nonmtg = 1
+		weltkrieg_armored_cruiser_nonmtg = 1
+		interwar_armored_cruiser_nonmtg = 1
+		weltkrieg_fast_battleship_nonmtg = 1
+		interwar_fast_battleship_nonmtg = 1
+		weltkrieg_dreadnought_nonmtg = 1
+		super_heavy_dreadnought_nonmtg = 1
+		weltkrieg_carrier_nonmtg = 1
+
+		### Transport ###
+		transport_n = 1
+	}
+}
+
+set_research_slots = 2
+
+set_politics = {
+	ruling_party = market_liberal
+	last_election = "1932.4.15"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	marxism = 21
+	leninism = 14
+	social_democrat = 8
+	market_liberal = 22
+	fascism = 35
+}
+
+create_country_leader = {
+	name = "UNKOWN"
+	picture = "gfx/leaders/BDB/Portrait_Mittelafrika_Hermann_Goering.tga"
+	expire = "1965.1.1"
+	ideology = market_liberal_group
+}
+
