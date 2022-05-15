@@ -1,0 +1,39 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "AI_SE_main_window"
+		orientation = center
+		size = { width = 800 height = 600 }
+		position = { x = -400   y= -300   }  
+		moveable = yes	
+		
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_SE_frame_overlay"
+		}	
+		
+		
+		iconType = {
+			name = "SE_frame_overlay"
+			spriteType = "GFX_SE_frame_overlay"
+			position = { x = 0 y = 0 }
+			Orientation = upper_left
+			alwaystransparent = yes
+		}
+		buttonType = {
+			name = "SE_exit_btn"
+			position = { x = 145  y = 547    }
+			spriteType = "GFX_SE_exit_btn"
+			orientation = upper_left
+		}
+        iconType = {
+            name ="underlay"
+            spriteType = "GFX_SE_text_underlay"
+            position = { x= 110 y = -200 }
+            Orientation = lower_left
+            alwaystransparent = yes
+        }
+	}
+	
+	
+}

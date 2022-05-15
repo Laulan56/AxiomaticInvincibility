@@ -1,0 +1,20 @@
+scripted_gui = {
+
+	AI_SE_main_window = {
+		context_type = player_context
+		window_name = "AI_SE_main_window"
+
+		visible = {
+			is_ai = no
+			has_global_flag = AI_super_event
+		}
+		properties = {
+			SE_image = { image = "[AIGetSuperEventImage]" }
+		}
+		effects = {
+			SE_exit_btn_click = {
+				clr_global_flag = AI_super_event
+			}
+		}
+	}
+}

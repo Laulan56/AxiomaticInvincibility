@@ -1,0 +1,18 @@
+spriteTypes = {
+
+    spriteType = {
+		name = "GFX_SE_text_underlay"
+		textureFile = "gfx//interface//SE_text_underlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_SE_frame_overlay"
+		texturefile = "gfx//interface//SE_frame.dds"
+	}
+    
+	spriteType = {
+		name = "GFX_SE_exit_btn"
+		texturefile = "gfx//interface//SE_btn.dds"
+	}
+
+}
