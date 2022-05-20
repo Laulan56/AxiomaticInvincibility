@@ -17,8 +17,8 @@
  social_conservative_noun:0 "社会保守主义"
  authoritarian_democrat:0 "威权民主主义"
  authoritarian_democrat_noun:0 "威权民主主义"
- paternal_autocrat:0 "专制主义"
- paternal_autocrat_noun:0 "专制主义"
+ despotist:0 "专制主义"
+ despotist_noun:0 "专制主义"
  revolutionary_nationalist:0 "革命民族主义"
  revolutionary_nationalist_noun:0 "革命民族主义"
  
@@ -31,5 +31,5 @@
  liberal_conservative_desc:0"自由主义"
  social_conservative_desc:0 "自由主义"
  authoritarian_democrat_desc:0 "反动主义"
- paternal_autocrat_desc:0 "反动主义"
+ despotist_desc:0 "反动主义"
  revolutionary_nationalist_desc:0 "反动主义"
