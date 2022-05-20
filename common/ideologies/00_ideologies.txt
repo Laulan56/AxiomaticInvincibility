@@ -298,17 +298,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	paternal_autocrat = {
+	despotist = {
 		types = {
 			paternal_autocrat_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+			"FACTION_NAME_DESPOTIST_1"
+			"FACTION_NAME_DESPOTIST_2"
+			"FACTION_NAME_DESPOTIST_3"
+			"FACTION_NAME_DESPOTIST_4"
+			"FACTION_NAME_DESPOTIST_5"
+			"FACTION_NAME_DESPOTIST_6"
 		}
 		color = { 45 45 45 }
 		rules = {
