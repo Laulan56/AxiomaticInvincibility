@@ -121,8 +121,8 @@ set_politics = {
 set_popularities = {
 	social_liberal = 43
 	liberal_conservative = 13
-	social_democracy = 28
-	moderate_socialism = 13
+	social_democrat = 28
+	moderate_socialist = 13
 	social_conservative = 3
 }
 
@@ -134,7 +134,7 @@ add_ideas = {
 
 create_faction = ParisConvention
 add_to_faction = FRA
-add_to_faction = RLU
+add_to_faction = RHI
 add_to_faction = BEL
 add_to_faction = ITA
 

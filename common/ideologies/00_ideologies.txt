@@ -1,17 +1,17 @@
 
 
 ideologies = {
-	vanguard_socialism = {
+	vanguard_socialist = {
 		types = {
-			vanguard_socialism_subtype = {} #generic
+			vanguard_SOCIALIST_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_VANGUARD_SOCIALISM_1"
-			"FACTION_NAME_VANGUARD_SOCIALISM_2"
-			"FACTION_NAME_VANGUARD_SOCIALISM_3"
-			"FACTION_NAME_VANGUARD_SOCIALISM_4"
-			"FACTION_NAME_VANGUARD_SOCIALISM_5"
-			"FACTION_NAME_VANGUARD_SOCIALISM_6"
+			"FACTION_NAME_VANGUARD_SOCIALIST_1"
+			"FACTION_NAME_VANGUARD_SOCIALIST_2"
+			"FACTION_NAME_VANGUARD_SOCIALIST_3"
+			"FACTION_NAME_VANGUARD_SOCIALIST_4"
+			"FACTION_NAME_VANGUARD_SOCIALIST_5"
+			"FACTION_NAME_VANGUARD_SOCIALIST_6"
 		}
 		color = { 127 0 0 }
 		rules = {
@@ -34,17 +34,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	marxism = {
+	marxist = {
 		types = {
-			marxism_subtype = {} #generic
+			marxist_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_MARXISM_1"
-			"FACTION_NAME_MARXISM_2"
-			"FACTION_NAME_MARXISM_3"
-			"FACTION_NAME_MARXISM_4"
-			"FACTION_NAME_MARXISM_5"
-			"FACTION_NAME_MARXISM_6"
+			"FACTION_NAME_MARXIST_1"
+			"FACTION_NAME_MARXIST_2"
+			"FACTION_NAME_MARXIST_3"
+			"FACTION_NAME_MARXIST_4"
+			"FACTION_NAME_MARXIST_5"
+			"FACTION_NAME_MARXIST_6"
 		}
 		color = { 255 0 0 }
 		rules = {
@@ -67,17 +67,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	anarchism = {
+	anarchist = {
 		types = {
-			anarchism_subtype = {} #generic
+			anarchist_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHISM_1"
-			"FACTION_NAME_ANARCHISM_2"
-			"FACTION_NAME_ANARCHISM_3"
-			"FACTION_NAME_ANARCHISM_4"
-			"FACTION_NAME_ANARCHISM_5"
-			"FACTION_NAME_ANARCHISM_6"
+			"FACTION_NAME_ANARCHIST_1"
+			"FACTION_NAME_ANARCHIST_2"
+			"FACTION_NAME_ANARCHIST_3"
+			"FACTION_NAME_ANARCHIST_4"
+			"FACTION_NAME_ANARCHIST_5"
+			"FACTION_NAME_ANARCHIST_6"
 		}
 		color = { 233 58 58 }
 		rules = {
@@ -100,17 +100,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	moderate_socialism = {
+	moderate_socialist = {
 		types = {
-			moderate_socialist_subtype = {} #generic
+			moderate_SOCIALIST_subtype = {} #generic
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_MODERATE_SOCIALISM_1"
-			"FACTION_NAME_MODERATE_SOCIALISM_2"
-			"FACTION_NAME_MODERATE_SOCIALISM_3"
-			"FACTION_NAME_MODERATE_SOCIALISM_4"
-			"FACTION_NAME_MODERATE_SOCIALISM_5"
-			"FACTION_NAME_MODERATE_SOCIALISM_6"
+			"FACTION_NAME_MODERATE_SOCIALIST_1"
+			"FACTION_NAME_MODERATE_SOCIALIST_2"
+			"FACTION_NAME_MODERATE_SOCIALIST_3"
+			"FACTION_NAME_MODERATE_SOCIALIST_4"
+			"FACTION_NAME_MODERATE_SOCIALIST_5"
+			"FACTION_NAME_MODERATE_SOCIALIST_6"
 		}
 		color = { 205 92 92 }
 		rules = {
@@ -133,17 +133,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	social_democracy = {
+	social_democrat = {
 		types = {
 			social_democracy_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_DEMOCRACY_1"
-			"FACTION_NAME_SOCIAL_DEMOCRACY_2"
-			"FACTION_NAME_SOCIAL_DEMOCRACY_3"
-			"FACTION_NAME_SOCIAL_DEMOCRACY_4"
-			"FACTION_NAME_SOCIAL_DEMOCRACY_5"
-			"FACTION_NAME_SOCIAL_DEMOCRACY_6"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_1"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_2"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_3"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_4"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_5"
+			"FACTION_NAME_SOCIAL_DEMOCRAT_6"
 		}
 		color = { 194 30 86 }
 		rules = {
@@ -298,17 +298,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 
-	paternal_autocrat = {
+	despotist = {
 		types = {
 			paternal_autocrat_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_PATERNAL_AUTOCRAT_1"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_2"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_3"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_4"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_5"
-			"FACTION_NAME_PATERNAL_AUTOCRAT_6"
+			"FACTION_NAME_DESPOTIST_1"
+			"FACTION_NAME_DESPOTIST_2"
+			"FACTION_NAME_DESPOTIST_3"
+			"FACTION_NAME_DESPOTIST_4"
+			"FACTION_NAME_DESPOTIST_5"
+			"FACTION_NAME_DESPOTIST_6"
 		}
 		color = { 45 45 45 }
 		rules = {
@@ -331,17 +331,17 @@ ideologies = {
 		can_be_boosted = no
 	}
 	
-	revolutionary_nationalism = {
+	revolutionary_nationalist = {
 		types = {
-			revolutionary_nationalism_subtype = {}
+			revolutionary_nationalist_subtype = {}
 		}
 		dynamic_faction_names = {
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_1"
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_2"
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_3"
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_4"
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_5"
-			"FACTION_NAME_REVOLUTIONARY_NATIONALISM_6"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_1"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_2"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_3"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_4"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_5"
+			"FACTION_NAME_REVOLUTIONARY_NATIONALIST_6"
 		}
 		color = { 142 57 0 }
 		rules = {

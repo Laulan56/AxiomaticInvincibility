@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "SAT_SCENARIO_NAME"
 		desc = "SAT_SCENARIO_DESC"
-		date = 1936.1.1.1
+		date = 1932.7.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "FRA"
 		default = yes
@@ -21,17 +21,6 @@ bookmarks = {
 			}
 		}
 		
-		"DSF" = {
-			history = "DSF_SAT_IRON_CURTAIN_DESC"
-			ideology = leninism
-			ideas = {
-				
-			}
-
-			focuses = {
-				
-			}
-		}
 		
 		"ENG" = {
 			history = "ENG_SAT_IRON_CURTAIN_DESC"
@@ -51,18 +40,6 @@ bookmarks = {
 			history = "OTHER_SAT_IRON_CURTAIN_DESC"
 		}
 
-		"RLU" = {
-			minor = yes
-			history = "RLU_SAT_IRON_CURTAIN_DESC"
-			ideology = social_liberal
-			ideas = {
-				
-			}
-
-			focuses = {
-				
-			}
-		}
 
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
