@@ -12,7 +12,7 @@ scripted_gui = {
 			SE_image = { image = "[AIGetSuperEventImage]" }
 		}
 		effects = {
-			SE_exit_btn_click = {
+			AI_SE_exit_btn_click = {
 				clr_global_flag = AI_super_event
 			}
 		}

@@ -9,23 +9,22 @@ guiTypes = {
 		
 		background = {
 			name = "Background"
-			quadTextureSprite ="GFX_SE_bg"
+			quadTextureSprite ="GFX_SE_frame_overlay"
 			
 		}	
-		
-		iconType = {
-			name = "AI_SE_picture_positioning_entry"
-			spriteType = "GFX_SE_pic_entry"
-			position = { x = 14 y = 13 }
-			Orientation = upper_left
-			alwaystransparent = yes 
-		}
-		
 		
 		iconType = {
 			name = "AI_SE_frame_overlay"
 			spriteType = "GFX_SE_frame_overlay"
 			position = { x = 0 y = 0 }
+			Orientation = upper_left
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "AI_SE_text_overlay"
+			spriteType = "GFX_SE_text_underlay"
+			position = { x = 235 y = 450 }
 			Orientation = upper_left
 			alwaystransparent = yes
 		}
@@ -38,29 +37,29 @@ guiTypes = {
 			
 		}
 		instantTextboxType = {
-			name = "CM_SE_btn" 
+			name = "AI_SE_btn" 
 			position = { x = 150 y = 557 }
 			font = "hoi_20bs"
-			text = "CM_SE_btn"		
+			text = "AI_SE_btn"		
 			maxWidth = 500
 			maxHeight = 30
 			format = center 
 			alwaystransparent = yes
 		}
 		instantTextboxType = {
-			name = "CM_SE_title" 
+			name = "AI_SE_title" 
 			position = { x = 10 y = 14 }
 			font = "hoi_30header"
-			text = "CM_SE_title"		
+			text = "AI_SE_title"		
 			maxWidth = 780
 			maxHeight = 80
 			format = center
 		}
 		instantTextboxType = {
-			name = "CM_SE_desc" 
+			name = "AI_SE_desc" 
 			position = { x = 10 y = 392}
 			font = "hoi_30header"       
-			text = "CM_SE_desc"		
+			text = "AI_SE_desc"		
 			maxWidth = 780 
 			maxHeight = 150
 			format = center
