@@ -38,7 +38,7 @@ idea_categories = {
 	}
 
 	military_staff = {
-		slot = mobilization_laws
+		slot = news
 		slot = trade_laws
 		slot = economy
 		character_slot = political_advisor
