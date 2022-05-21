@@ -10,8 +10,6 @@ state= {
 			9347 20
 		}
 		owner = HAM
-		buildings = {
-		}
 		add_core_of = HAM
 		
 	}
