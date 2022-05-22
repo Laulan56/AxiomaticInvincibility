@@ -858,4 +858,240 @@ ideas = {
    			}
 		}
 	}
+
+	economic_system = {
+		law = yes
+		use_list_view = yes
+
+		economic_system_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.02
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+		economic_system_2 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.04
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = 0.03
+            }
+
+            cancel_if_invalid = no
+		}
+
+		economic_system_3 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.02
+				production_factory_start_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+		economic_system_4 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.04
+				industrial_capacity_dockyard = 0.03
+				industrial_capacity_factory = 0.03
+				consumer_goods_factor = -0.01
+				production_factory_start_efficiency_factor = 0.01
+				production_factory_efficiency_gain_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+		economic_system_5 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.08
+				consumer_goods_factor = -0.02
+				production_factory_max_efficiency_factor = 0.04
+            }
+
+            cancel_if_invalid = no
+		}
+
+		economic_system_6 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.04
+				consumer_goods_factor = -0.02
+				production_factory_max_efficiency_factor = 0.08
+            }
+
+            cancel_if_invalid = no
+		}
+	}
+
+	ownership_system = {
+		law = yes
+		use_list_view = yes
+
+		ownership_system_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = -0.03
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_efficiency_gain_factor = 0.04
+            }
+
+            cancel_if_invalid = no
+		}
+
+		ownership_system_2 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = -0.02
+				production_factory_max_efficiency_factor = 0.03
+				production_factory_start_efficiency_factor = 0.03
+            }
+
+            cancel_if_invalid = no
+		}
+
+		ownership_system_3 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+				consumer_goods_factor = 0.01
+				production_factory_start_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.04
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+		ownership_system_4 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.03
+            }
+
+            cancel_if_invalid = no
+		}
+
+	}
+
+	work_hour = {
+		law = yes
+		use_list_view = yes
+
+		ownership_system_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.02
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+	}
+
+	benefits = {
+		law = yes
+		use_list_view = yes
+
+		ownership_system_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.02
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+	}
+
+	education = {
+		law = yes
+		use_list_view = yes
+
+		ownership_system_1 = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+
+            modifier = {
+                production_speed_buildings_factor = 0.02
+				industrial_capacity_dockyard = 0.02
+				industrial_capacity_factory = 0.02
+				consumer_goods_factor = 0.02
+            }
+
+            cancel_if_invalid = no
+		}
+
+	}
 }

@@ -24,30 +24,30 @@ idea_categories = {
 	}
 	
 	government = {
-		slot = economy
+		slot = political_system
+		slot = political_party
+		slot = news
+		slot = trade_union
+		slot = voting_right
 		slot = mobilization_laws
-		slot = trade_laws
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
 		
 		ledger = civilian
 		
-		cost = 150
+		cost = -1
 		removal_cost = 0
 	}
 
 	military_staff = {
-		slot = news
-		slot = trade_laws
+		slot = economic_system
+		slot = ownership_system
+		slot = work_hour
+		slot = benefits
+		slot = education
 		slot = economy
-		character_slot = political_advisor
-		character_slot = political_advisor
-		character_slot = political_advisor
 		
 		ledger = civilian
 		
-		cost = 150
+		cost = -1
 		removal_cost = 0
 	}
 	
