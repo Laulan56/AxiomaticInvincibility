@@ -1,0 +1,6 @@
+SpriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_FRA_Edouard_Herriot"
+		texturefile = "gfx/leaders/FRA/GFX_portrait_FRA_Edouard_Herriot.png"
+	}
+}

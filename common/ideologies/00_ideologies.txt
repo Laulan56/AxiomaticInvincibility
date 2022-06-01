@@ -3,7 +3,7 @@
 ideologies = {
 	vanguard_socialist = {
 		types = {
-			vanguard_SOCIALIST_subtype = {} #generic
+			vanguard_socialist_subtype = {} #generic
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_VANGUARD_SOCIALIST_1"
@@ -102,7 +102,7 @@ ideologies = {
 	
 	moderate_socialist = {
 		types = {
-			moderate_SOCIALIST_subtype = {} #generic
+			moderate_socialist_subtype = {} #generic
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_MODERATE_SOCIALIST_1"
