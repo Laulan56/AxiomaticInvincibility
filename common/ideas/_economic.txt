@@ -7,9 +7,7 @@ ideas = {
 		undisturbed_isolation = {
 
 
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
 			modifier = {
@@ -42,9 +40,7 @@ ideas = {
 
 		isolation = {
 
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
 			modifier = {
@@ -468,9 +464,7 @@ ideas = {
 
 			picture = new_economic_policy
 
-			allowed = {
-				always = no
-			}
+			
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
@@ -497,9 +491,7 @@ ideas = {
 
 			picture = new_economic_policy
 
-			allowed = {
-				always = no
-			}
+			
 			allowed_to_remove = {
 				OR = {
 					surrender_progress > 0.75
@@ -530,9 +522,7 @@ ideas = {
 		uncontrolled_exports = {
 
 
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 			picture = isolation
 
@@ -864,9 +854,7 @@ ideas = {
 		use_list_view = yes
 
 		economic_system_1 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -880,9 +868,7 @@ ideas = {
 		}
 
 		economic_system_2 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -896,9 +882,7 @@ ideas = {
 		}
 
 		economic_system_3 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -913,9 +897,7 @@ ideas = {
 		}
 
 		economic_system_4 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -931,9 +913,7 @@ ideas = {
 		}
 
 		economic_system_5 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -946,9 +926,7 @@ ideas = {
 		}
 
 		economic_system_6 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -966,9 +944,7 @@ ideas = {
 		use_list_view = yes
 
 		ownership_system_1 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -981,9 +957,7 @@ ideas = {
 		}
 
 		ownership_system_2 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -996,9 +970,7 @@ ideas = {
 		}
 
 		ownership_system_3 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -1013,9 +985,7 @@ ideas = {
 		}
 
 		ownership_system_4 = {
-			allowed = {
-				always = no
-			}
+			
 			removal_cost = -1
 
             modifier = {
@@ -1033,17 +1003,64 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		ownership_system_1 = {
-			allowed = {
-				always = no
-			}
+		work_hour_1 = {
+			
 			removal_cost = -1
 
             modifier = {
-                production_speed_buildings_factor = 0.02
-				industrial_capacity_dockyard = 0.02
-				industrial_capacity_factory = 0.02
-				consumer_goods_factor = 0.02
+                stability_factor = 0.03
+				industrial_capacity_factory = -0.05
+				production_factory_start_efficiency_factor = 0.1
+            }
+
+            cancel_if_invalid = no
+		}
+
+		work_hour_2 = {
+			
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = 0.015
+				industrial_capacity_factory = -0.025
+				production_factory_start_efficiency_factor = 0.05
+            }
+
+            cancel_if_invalid = no
+		}
+
+		work_hour_3 = {
+			
+			removal_cost = -1
+
+            modifier = {
+
+            }
+
+            cancel_if_invalid = no
+		}
+
+		work_hour_4 = {
+
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.015
+				industrial_capacity_factory = 0.025
+				production_factory_start_efficiency_factor = -0.04
+            }
+
+            cancel_if_invalid = no
+		}
+
+		work_hour_5 = {
+
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.03
+				industrial_capacity_factory = 0.05
+				production_factory_start_efficiency_factor = -0.08
             }
 
             cancel_if_invalid = no
@@ -1055,17 +1072,51 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		ownership_system_1 = {
-			allowed = {
-				always = no
-			}
+		benefit_1 = {
+			
 			removal_cost = -1
 
             modifier = {
-                production_speed_buildings_factor = 0.02
-				industrial_capacity_dockyard = 0.02
-				industrial_capacity_factory = 0.02
-				consumer_goods_factor = 0.02
+                stability_factor = 0.08
+				weekly_manpower = 0.15
+				consumer_goods_factor = 0.05
+            }
+
+            cancel_if_invalid = no
+		}
+
+		benefit_2 = {
+			
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = 0.04
+				weekly_manpower = 0.075
+				consumer_goods_factor = 0.025
+            }
+
+            cancel_if_invalid = no
+		}
+
+		benefit_3 = {
+			
+			removal_cost = -1
+
+            modifier = {
+
+            }
+
+            cancel_if_invalid = no
+		}
+
+		benefit_4 = {
+			
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.06
+				weekly_manpower = -0.1
+				consumer_goods_factor = -0.03
             }
 
             cancel_if_invalid = no
@@ -1077,17 +1128,51 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		ownership_system_1 = {
-			allowed = {
-				always = no
-			}
+		education_1 = {
+			
 			removal_cost = -1
 
             modifier = {
-                production_speed_buildings_factor = 0.02
-				industrial_capacity_dockyard = 0.02
-				industrial_capacity_factory = 0.02
-				consumer_goods_factor = 0.02
+                stability_factor = 0.04
+				research_time_factor = 0.06
+				consumer_goods_factor = 0.03
+            }
+
+            cancel_if_invalid = no
+		}
+
+		education_2 = {
+			
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = 0.02
+				research_time_factor = 0.03
+				consumer_goods_factor = 0.015
+            }
+
+            cancel_if_invalid = no
+		}
+
+		education_3 = {
+			
+			removal_cost = -1
+
+            modifier = {
+
+            }
+
+            cancel_if_invalid = no
+		}
+
+		education_4 = {
+			
+			removal_cost = -1
+
+            modifier = {
+                stability_factor = -0.04
+				research_time_factor = -0.08
+				consumer_goods_factor = -0.04
             }
 
             cancel_if_invalid = no
