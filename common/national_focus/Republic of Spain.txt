@@ -1,0 +1,366 @@
+###########################
+# Republic of spain
+# By Plucommund
+###########################
+focus_tree = {
+	id = SPR_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 1400 y = 900 }
+	
+	
+	focus = {
+		id = SPR_new_year_of_republic
+		icon = GFX_
+		x = 9
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_new_year_of_republic"
+			add_political_power = 100
+		}
+	}
+	
+	focus = {
+		id = SPR_in_farmland
+		icon = GFX_
+		x = -4
+		y = 1
+		relative_position_id = SPR_new_year_of_republic
+		cost = 2
+		prerequisite = {
+			focus = SPR_new_year_of_republic
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_in_farmland"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_speed_up_field_distribution
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = SPR_in_farmland
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_in_farmland
+		}
+		mutually_exclusive = {
+			focus = SPR_def_lan_pro_rig
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_speed_up_field_distribution"
+			add_political_power = -50
+			add_stability = 0.10
+		}
+	}
+	
+	focus = {
+		id = SPR_def_lan_pro_rig
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = SPR_in_farmland
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_in_farmland
+		}
+		mutually_exclusive = {
+			focus = SPR_speed_up_field_distribution
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_def_lan_pro_rig"
+			add_stability = -0.05
+			increase_ruling_party_popularity_by_5 = yes
+		}
+	}
+	
+	focus = {
+		id = SPR_rec_of_idle_pro
+		icon = GFX_
+		x = 0
+		y = 2
+		relative_position_id = SPR_in_farmland
+		prerequisite = {
+			focus = SPR_speed_up_field_distribution
+			focus = SPR_def_lan_pro_rig
+		}
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_rec_of_idle_pro"
+			add_political_power = -25
+		}
+	}
+	
+	focus = {
+		id = SPR_satisfiled_farmers
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = SPR_rec_of_idle_pro
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_rec_of_idle_pro
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_satisfiled_farmers"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_in_universities
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = SPR_new_year_of_republic
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_new_year_of_republic
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_in_universities"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_per_stu_to_res_cla
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = SPR_in_universities
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_in_universities
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_per_stu_to_res_cla"
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = SPR_fight_aga_dan
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = SPR_per_stu_to_res_cla
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_per_stu_to_res_cla
+		}
+		mutually_exclusive = {
+		    focus = SPR_a_ten_rem
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_fight_aga_dan"
+			add_stability = 0.10
+			add_political_power = -0.25
+		}
+	}
+	
+	focus = {
+		id = SPR_a_ten_rem
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = SPR_per_stu_to_res_cla
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_per_stu_to_res_cla
+		}
+		mutually_exclusive = {
+		    focus = SPR_fight_aga_dan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_a_ten_rem"
+			increase_ruling_party_popularity_by_5 = yes
+			add_political_power -0.25
+		}
+	}
+	
+	focus = {
+		id = SPR_sil_inthe_cul_and_edu_cir
+		icon = GFX_
+		x = 0
+		y = 2
+		relative_position_id = SPR_per_stu_to_res_cla
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_a_ten_rem
+			focus = SPR_fight_aga_dan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_sil_inthe_cul_and_edu_cir"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_in_factory
+		icon = GFX_
+		x = 4
+		y = 1
+		relative_position_id = SPR_new_year_of_republic
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_new_year_of_republic
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_in_factory"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_allow_yellow_union
+		icon = GFX_
+		x = -1
+		y = 1
+		relative_position_id = SPR_in_factory
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_in_factory
+		}
+		mutually_exclusive = {
+		    focus = SPR_listen_to_the_boss
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_allow_yellow_union"
+			add_stability = -0.03
+		}
+	}
+	
+	focus = {
+		id = SPR_listen_to_the_boss
+		icon = GFX_
+		x = 1
+		y = 1
+		relative_position_id = SPR_in_factory
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_in_factory
+		}
+		mutually_exclusive = {
+		    focus = SPR_allow_yellow_union
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_listen_to_the_boss"
+			add_political_power = -0.15
+		}
+	}
+	
+	focus = {
+		id = SPR_worker_literacy_class
+		icon = GFX_
+		x = 0
+		y = 2
+		relative_position_id = SPR_in_factory
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_listen_to_the_boss
+			focus = SPR_allow_yellow_union
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_worker_literacy_class"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_factory_resumption
+		icon = GFX_
+		x = 0
+		y = 1
+		relative_position_id = SPR_worker_literacy_class
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_worker_literacy_class
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_factory_resumption"
+			
+		}
+	}
+	
+	focus = {
+		id = SPR_welcome_election_day
+		icon = GFX_
+		x = 0
+		y = 5
+		relative_position_id = SPR_new_year_of_republic
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		prerequisite = {
+			focus = SPR_satisfiled_farmers
+		}
+		prerequisite = {
+		    focus = SPR_sil_inthe_cul_and_edu_cir
+		}
+		prerequisite = {
+		    focus = SPR_factory_resumption
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SPR_welcome_election_day"
+			
+		}
+	}
