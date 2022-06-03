@@ -1,0 +1,15 @@
+characters={
+    FRA_Edouard_Herriot={
+		name=FRA_Edouard_Herriot
+		portraits={
+			civilian={
+				large=GFX_portrait_FRA_Edouard_Herriot
+			}
+		}
+		country_leader={
+			ideology=social_liberal_subtype
+			expire="1938.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -139,16 +139,7 @@ add_to_faction = BEL
 add_to_faction = ITA
 
 #Order matters here Daladier will start as leaders because added last
-create_country_leader = {
-	name = "Édouard Daladier"
-	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_group
-	traits = {
-		stout_defender
-	}
-}
+recruit_character = FRA_Edouard_Herriot
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"
