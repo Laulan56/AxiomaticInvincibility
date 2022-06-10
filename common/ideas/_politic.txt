@@ -1,6 +1,6 @@
 ideas = {
     
-    news = {
+    press_laws = {
         law = yes
 		use_list_view = yes
 
@@ -190,7 +190,7 @@ ideas = {
 
     }
 
-    trade_union = {
+    trade_unions = {
         law = yes
 		use_list_view = yes
 

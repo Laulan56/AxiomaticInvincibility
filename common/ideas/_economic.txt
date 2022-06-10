@@ -1068,7 +1068,7 @@ ideas = {
 
 	}
 
-	benefits = {
+	welfare = {
 		law = yes
 		use_list_view = yes
 
