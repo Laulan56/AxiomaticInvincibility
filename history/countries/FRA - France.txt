@@ -119,11 +119,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 43
-	liberal_conservative = 13
+	social_liberal = 38
+	liberal_conservative = 8
 	social_democrat = 28
 	moderate_socialist = 13
 	social_conservative = 3
+	vanguard_socialist = 4
+	marxist = 4
+	anarchist = 2
 }
 
 add_ideas = {
@@ -140,6 +143,11 @@ add_to_faction = ITA
 
 #Order matters here Daladier will start as leaders because added last
 recruit_character = FRA_Edouard_Herriot
+recruit_character = FRA_Maurice_Thorez
+recruit_character = FRA_Daniel_Guerin
+recruit_character = FRA_Leon_Blum
+recruit_character = FRA_Philippe_Petain
+recruit_character = FRA_Francois_de_La_Rocque
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"

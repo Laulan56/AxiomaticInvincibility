@@ -94,6 +94,19 @@ characters={
 			id=-1
 		}
 	}
+	FRA_Leon_Blum = {
+		name=FRA_Leon_Blum
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_FRA_Leon_Blum.png"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1964.1.1.1"
+			id=-1
+		}
+	}
 	FRA_Philippe_Petain = {
 		name=FRA_Philippe_Petain
 		portraits={
