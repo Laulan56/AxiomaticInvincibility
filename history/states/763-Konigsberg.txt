@@ -6,8 +6,8 @@ state={
 	state_category = city
 
 	history={
-		owner = DDR
-		controller = DDR
+		owner = GER
+		controller = GER
 		
 		victory_points = {
 			6332 10 
@@ -27,12 +27,8 @@ state={
 			}
 			air_base = 6
 		}
-		add_core_of = DDR
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
-		}
+		add_core_of = GER
+		
 	}
 
 	provinces={
