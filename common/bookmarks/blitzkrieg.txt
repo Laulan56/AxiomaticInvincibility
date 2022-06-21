@@ -7,6 +7,34 @@ bookmarks = {
 		default_country = "FRA"
 		default = yes
 
+		"SOV" = {
+			history = "SOV_SAT_IRON_CURTAIN_DESC"
+			ideology = vanguard_socialist
+			ideas = {
+				
+				
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
+		"GER" = {
+			history = "GER_SAT_IRON_CURTAIN_DESC"
+			ideology = despotist
+			ideas = {
+				
+				
+				
+			}
+
+			focuses = {
+				
+			}
+		}
+		
 		"FRA" = {
 			history = "FRA_SAT_IRON_CURTAIN_DESC"
 			ideology = social_liberal
@@ -36,9 +64,6 @@ bookmarks = {
 			}
 		}
 
-		"---" = {
-			history = "OTHER_SAT_IRON_CURTAIN_DESC"
-		}
 
 
 		effect = {
