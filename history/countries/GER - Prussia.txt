@@ -134,7 +134,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Otto Wels"
 	desc = "GER_Otto_Wels_Desc"
-	picture = "Portrait_PRU_Otto_Wels.png"
+	picture = "gfx/leaders/GER/Portrait_PRU_Otto_Wels.png"
 	ideology = social_democracy_subtype
 }
 

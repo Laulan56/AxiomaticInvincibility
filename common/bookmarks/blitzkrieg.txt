@@ -25,9 +25,9 @@ bookmarks = {
 			history = "GER_SAT_IRON_CURTAIN_DESC"
 			ideology = despotist
 			ideas = {
-				
-				
-				
+				PRU_weiershi_fanrong
+	            PRU_zhanbai_zhe
+	            PRU_hunluan_de_zhengzhi
 			}
 
 			focuses = {
