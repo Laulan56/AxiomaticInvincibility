@@ -1,0 +1,39 @@
+spriteTypes = {
+
+	### FRA ###
+	spriteType = {
+		name = "GFX_idea_FRA_ouzhou_bazhu"
+		texturefile = "gfx/interface/ideas/FRA_ouzhou_bazhu.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_yidairen_jiyi"
+		texturefile = "gfx/interface/ideas/FRA_yidairen_jiyi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_zhanhao_suiyue"
+		texturefile = "gfx/interface/ideas/FRA_zhanhao_suiyue.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_faguo_shili_yingxiang"
+		texturefile = "gfx/interface/ideas/FRA_faguo_shili_yingxiang.png"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_da_xiaotiao"
+		texturefile = "gfx/interface/ideas/FRA_da_xiaotiao.png"
+	}
+	
+	### GER ###
+	spriteType = {
+		name = "GFX_idea_PRU_weiershi_fanrong"
+		texturefile = "gfx/interface/ideas/PRU_weiershi_fanrong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRU_zhanbai_zhe"
+		texturefile = "gfx/interface/ideas/PRU_zhanbai_zhe.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRU_hunluan_de_zhengzhi"
+		texturefile = "gfx/interface/ideas/PRU_hunluan_de_zhengzhi.png"
+	}
+}
+

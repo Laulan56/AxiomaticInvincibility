@@ -130,9 +130,9 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_overlord_of_european_continent
-	FRA_Blood_generation
-	FRA_years_in_the_trenches
+	FRA_ouzhou_bazhu
+	FRA_yidairen_jiyi
+	FRA_zhanhao_suiyue
 }
 
 create_faction = ParisConvention
@@ -142,12 +142,42 @@ add_to_faction = BEL
 add_to_faction = ITA
 
 #Order matters here Daladier will start as leaders because added last
-recruit_character = FRA_Edouard_Herriot
-recruit_character = FRA_Maurice_Thorez
-recruit_character = FRA_Daniel_Guerin
-recruit_character = FRA_Leon_Blum
-recruit_character = FRA_Philippe_Petain
-recruit_character = FRA_Francois_de_La_Rocque
+create_country_leader = {
+	name = "Edouard Herriot"
+	desc = "FRA_Edouard_Herriot_Desc"
+	picture = "Portrait_FRA_Edouard_Herriot.png"
+	ideology = social_liberal_subtype
+}
+create_country_leader = {
+	name = "Maurice Thorez"
+	desc = "FRA_Maurice_Thorez_Desc"
+	picture = "Portrait_FRA_Maurice_Thorez.png"
+	ideology = vanguard_socialist_subtype
+}
+create_country_leader = {
+	name = "Daniel Guerin"
+	desc = "FRA_Daniel_Guerin_Desc"
+	picture = "Portrait_FRA_Daniel_Guerin.png"
+	ideology = anarchist_subtype
+}
+create_country_leader = {
+	name = "Leon Blum"
+	desc = "FRA_Leon_Blum_Desc"
+	picture = "Portrait_FRA_Leon_Blum.png"
+	ideology = social_democracy_subtype
+}
+create_country_leader = {
+	name = "Philippe Petain"
+	desc = "FRA_Philippe_Petain_Desc"
+	picture = "Portrait_FRA_Philippe_Petain.png"
+	ideology = authoritarian_democrat_subtype
+}
+create_country_leader = {
+	name = "Francois de La Rocque"
+	desc = "FRA_Francois_de_La_Rocque_Desc"
+	picture = "Portrait_FRA_Francois_de_La_Rocque.png"
+	ideology = revolutionary_nationalist_subtype
+}
 
 create_corps_commander = {
 	name = "Jean de Lattre de Tassigny"

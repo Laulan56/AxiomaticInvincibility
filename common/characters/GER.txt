@@ -1,0 +1,35 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    PRU_Otto_Wels={
+		name=PRU_Otto_Wels
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Otto_Wels.png"
+			}
+		}
+		country_leader={
+			ideology=social_democrat_subtype
+			expire="1964.1.1.11"
+			id=-1
+		}
+	}
+	
+	
+	################
+	### advisor  ###
+	################
+	
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

@@ -39,9 +39,9 @@ bookmarks = {
 			history = "FRA_SAT_IRON_CURTAIN_DESC"
 			ideology = social_liberal
 			ideas = {
-				FRA_overlord_of_european_continent
-				FRA_blood_generation
-				FRA_years_in_the_trenches
+				FRA_ouzhou_bazhu
+	            FRA_yidairen_jiyi
+	            FRA_zhanhao_suiyue
 			}
 
 			focuses = {
