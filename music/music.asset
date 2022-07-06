@@ -1,0 +1,6 @@
+# MAIN THEME
+music = {
+	name = "maintheme"
+	file = "fra_Parant_pour_la_syrie.ogg"
+	volume = 1
+}

@@ -120,10 +120,10 @@ if = {
 set_variable = { var = eng_gateway_to_europe_influence value = 0 }
 
 add_ideas = {
-	ENG_greatest_royal_family
-	ENG_turbulence_in_ire
-	ENG_huge_colonial_expenses
-	ENG_years_in_the_trenches
+	ENG_zuiweida_de_jaizu
+	ENG_aierlan_dongdang
+	ENG_judade_zhiminkaizhi
+	ENG_zhanhao_suiyue
 }
 	
 
@@ -193,7 +193,7 @@ set_popularities = {
 	paternal_autocrat = 32
 }
 
-create_faction = BritishEmpire
+create_faction = WestminsterUnion
 add_to_faction = ENG
 add_to_faction = CAN
 add_to_faction = AST

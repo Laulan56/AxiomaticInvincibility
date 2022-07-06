@@ -11,9 +11,9 @@ bookmarks = {
 			history = "SOV_SAT_IRON_CURTAIN_DESC"
 			ideology = vanguard_socialist
 			ideas = {
-				
-				
-				
+				SOV_huguo_lianmeng
+				SOV_soviet_dianqihua
+				SOV_geming_fayuandi
 			}
 
 			focuses = {
@@ -54,9 +54,9 @@ bookmarks = {
 			history = "ENG_SAT_IRON_CURTAIN_DESC"
 			ideology = authoritarian_democrat
 			ideas = {
-				ENG_greatest_royal_family
-				ENG_huge_colonial_expenses
-				ENG_turbulence_in_ire
+				ENG_zuiweida_de_jaizu
+				ENG_judade_zhiminkaizhi
+				ENG_aierlan_dongdang
 			}
 
 			focuses = {

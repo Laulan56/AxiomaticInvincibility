@@ -1,0 +1,138 @@
+﻿###########################
+# 法国事件
+###########################
+
+add_namespace = fra
+
+country_event = { #Intro
+	id = fra.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.1" }
+	title = fra.1.t
+	desc = fra.1.d
+	picture = GFX_ww1picture1
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.1.a
+	}
+	option = {
+		name = fra.1.b
+		country_event = {
+			id = fra.2
+		}
+	}
+}
+country_event = { #Intro
+	id = fra.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.2" }
+	title = fra.2.t
+	desc = fra.2.d
+	picture = GFX_eiffel
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.2.a
+	}
+	option = {
+		name = fra.2.b
+		country_event = {
+			id = fra.1
+		}
+	}
+}
+country_event = { #大萧条
+	id = fra.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.3" }
+	title = fra.3.t
+	desc = fra.3.d
+	picture = GFX_great_depression
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.3.a
+		add_ideas = FRA_great_depression_0
+		stability_factor = -0.45
+		load_focus_tree = french_true_focus
+	}
+}
+country_event = { #紧急措施
+	id = fra.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.4" }
+	title = fra.4.t
+	desc = fra.4.d
+	picture = GFX_great_depression
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.4.a
+		add_stability = 0.05
+		add_political_power = -10
+	}
+	option = {
+		name = fra.4.b
+		add_political_power = -50
+		add_stability = 0.1
+	}
+	option = {
+		name = fra.4.c
+		add_stability = -0.3
+	}
+}
+country_event = { #广泛的社会质疑
+	id = fra.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.5" }
+	title = fra.5.t
+	desc = fra.5.d
+	picture = GFX_greatdepression_people
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.5.a
+		add_stability = -0.01
+		add_political_power = -1
+		
+	}
+}
+country_event = { #来自美国的惨剧
+	id = fra.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.6" }
+	title = fra.6.t
+	desc = fra.6.d
+	picture = GFX_greatdepression_people
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.6.a
+		add_stability = -0.02
+		add_political_power = -2
+		
+	}
+}
+country_event = { #承诺改革
+	id = fra.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event fra.6" }
+	title = fra.7.t
+	desc = fra.7.d
+	picture = GFX_greatdepression_people
+
+	is_triggered_only = yes
+	fire_only_once = no
+
+	option = {
+		name = fra.7.a
+		add_stability = 0.01
+		add_political_power = 10
+	}
+}

@@ -35,5 +35,27 @@ spriteTypes = {
 		name = "GFX_idea_PRU_hunluan_de_zhengzhi"
 		texturefile = "gfx/interface/ideas/PRU_hunluan_de_zhengzhi.png"
 	}
+	
+	### SOV ###
+	spriteType = {
+		name = "GFX_idea_SOV_huguo_lianmeng"
+		texturefile = "gfx/interface/ideas/SOV_huguo_lianmeng.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_soviet_dianqihua"
+		texturefile = "gfx/interface/ideas/SOV_soviet_dianqihua.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_liangshi_gongying_3"
+		texturefile = "gfx/interface/ideas/SOV_liangshi_gongying.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_futejia_jiushui"
+		texturefile = "gfx/interface/ideas/SOV_futejia_jiushui.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SOV_geming_fayuandi"
+		texturefile = "gfx/interface/ideas/SOV_geming_fayuandi.png"
+	}
 }
 

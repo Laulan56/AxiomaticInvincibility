@@ -11,7 +11,6 @@ if = {
 }
 
 country_event = { id = fra.1 days = 1 }#介绍
-country_event = { id = fra.3 days = 51 }#大萧条
 
 set_autonomy = {
 		target = RHI
@@ -119,14 +118,14 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 38
-	liberal_conservative = 8
-	social_democrat = 28
+	social_liberal = 40
+	liberal_conservative = 7
+	social_democrat = 24
 	moderate_socialist = 13
-	social_conservative = 3
-	vanguard_socialist = 4
-	marxist = 4
-	anarchist = 2
+	social_conservative = 4
+	vanguard_socialist = 6
+	marxist = 5
+	anarchist = 1
 }
 
 add_ideas = {
@@ -145,37 +144,37 @@ add_to_faction = ITA
 create_country_leader = {
 	name = "Edouard Herriot"
 	desc = "FRA_Edouard_Herriot_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Edouard_Herriot.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Edouard_Herriot.dds"
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "FRA_Maurice_Thorez_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Maurice_Thorez.dds"
 	ideology = vanguard_socialist_subtype
 }
 create_country_leader = {
 	name = "Daniel Guerin"
 	desc = "FRA_Daniel_Guerin_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Daniel_Guerin.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Daniel_Guerin.dds"
 	ideology = anarchist_subtype
 }
 create_country_leader = {
 	name = "Leon Blum"
 	desc = "FRA_Leon_Blum_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Leon_Blum.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Leon_Blum.dds"
 	ideology = social_democracy_subtype
 }
 create_country_leader = {
 	name = "Philippe Petain"
 	desc = "FRA_Philippe_Petain_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_Petain.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Philippe_Petain.dds"
 	ideology = authoritarian_democrat_subtype
 }
 create_country_leader = {
 	name = "Francois de La Rocque"
 	desc = "FRA_Francois_de_La_Rocque_Desc"
-	picture = "gfx/leaders/FRA/Portrait_FRA_Francois_de_La_Rocque.png"
+	picture = "gfx/leaders/FRA/Portrait_FRA_Francois_de_La_Rocque.dds"
 	ideology = revolutionary_nationalist_subtype
 }
 

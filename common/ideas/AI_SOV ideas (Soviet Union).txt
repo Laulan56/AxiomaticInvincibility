@@ -1,0 +1,65 @@
+ideas = {
+
+	country = {
+	# Start
+		SOV_liangshi_gongying_3 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_3"}
+			
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.025
+				stability_factor = 0.05
+			}
+		}
+		SOV_huguo_lianmeng = {
+		    on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_huguo_lianmeng"}
+			
+			allowed = { always = no }
+			modifier = {				
+				war_support_factor = 0.15
+				war_stability_factor = 0.10
+				revolutionary_nationalist_drift = 0.01
+			}
+		}
+		SOV_soviet_dianqihua = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_soviet_dianqihua"}
+			
+			allowed = { always = no }
+			modifier = {
+				#Soviet
+				stability_factor = 0.05
+				political_power_gain = 0.10
+				drift_defence_factor = 0.50
+				#Electrification
+				consumer_goods_factor = 0.07
+				production_speed_buildings_factor = 0.10
+				industrial_capacity_factory = -0.10
+				production_factory_max_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.10
+				production_lack_of_resource_penalty_factor = -0.10
+			}
+		}
+		SOV_futejia_jiushui = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_futejia_jiushui"}
+			
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = -0.03
+				stability_factor = -0.02
+			}
+		}
+		SOV_geming_fayuandi = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_geming_fayuandi"}
+			
+			allowed = { always = no }
+			modifier = {
+				send_volunteer_size = 3
+				opinion_gain_monthly_same_ideology_factor = 1
+				land_reinforce_rate	 = 0.10
+				authoritarian_democrat_acceptance = -50
+				despotist_acceptance = -50
+				revolutionary_nationalist_acceptance = -50
+			}
+		}
+	}
+}

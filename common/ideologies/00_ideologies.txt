@@ -300,7 +300,7 @@ ideologies = {
 
 	despotist = {
 		types = {
-			paternal_autocrat_subtype = {}
+			despotist_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_DESPOTIST_1"

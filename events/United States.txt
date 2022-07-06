@@ -1,0 +1,27 @@
+############
+#美国事件
+##########
+add_namespace = usa
+
+country_event = { 
+	
+	id = usa.3
+    title = usa.3.t
+    desc = usa.3.d 
+	is_triggered_only = yes
+	hidden = no 
+	
+	option = { 
+		#test event1
+		name = usa.3.a
+		SE_center = yes
+		hidden_effect = {
+			SE_center = yes
+			#add this line if your flavor text should be center aligned(poetry lyric etc.)
+			set_variable = { global.se_display = 1 }
+			play_song = se_song_of_japanese_youth
+		}
+	}
+	
+}
+
