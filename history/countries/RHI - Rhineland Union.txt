@@ -107,8 +107,8 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-	RLU_rhine_river_special_economic_zone
-	FRA_french_sphere_of_influence
+	RHI_laiyin_jingjitequ
+	FRA_faguo_shili_yingxiang
 }
 
 set_politics = {

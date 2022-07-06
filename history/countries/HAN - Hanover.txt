@@ -107,7 +107,7 @@ if = {
 set_research_slots = 2
 
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = social_liberal
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
@@ -116,14 +116,16 @@ set_politics = {
 set_popularities = {
 	marxist = 7
 	vanguard_socialist = 5
-	social_conservative = 78
+	social_democrat = 22
+	social_liberal = 38
+	social_conservative = 18
 	authoritarian_democrat = 10
 }
 
 create_country_leader = {
-	name = "Hermann Goering"
-	picture = "gfx/leaders/BDB/Portrait_Mittelafrika_Hermann_Goering.tga"
+	name = "Gustav Noske"
+	picture = "gfx/leaders/GER_00/Portrait_HAN_Gustav_Noske.dds"
 	expire = "1965.1.1"
-	ideology = paternal_autocrat_group
+	ideology = social_liberal_subtype
 }
 

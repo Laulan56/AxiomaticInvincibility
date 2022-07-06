@@ -1,0 +1,46 @@
+ideas = {
+
+	country = {
+	# Start
+		SPR_gongnongye_bagong = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SPR_gongnongye_bagong"}
+			picture = 
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_speed_buildings_factor = -0.45
+				stability_factor = -0.20
+			}
+		}
+		SPR_junshipanluan_weixie = {
+		    on_add = { log = "[GetDateText]: [Root.GetName]: add idea SPR_junshipanluan_weixie"}
+			picture = 
+			allowed = { always = no }
+			modifier = {				
+				custom_modifier_tooltip = cannot_train_units_tt
+				war_support_factor = -0.15
+				experience_gain_army_factor = -0.50
+			}
+		}
+		SPR_fenliede_guojia = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SPR_fenliede_guojia"}
+			picture = 
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.10
+				war_support_factor = -0.20
+				political_power_factor = -0.10
+			}
+		}
+		SPR_lengmode_nongcun = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SPR_lengmode_nongcun"}
+			picture = 
+			allowed = { always = no }
+			modifier = {
+				stability_factor = -0.10
+				drift_defence_factor = -0.30
+				party_popularity_stability_factor = -0.20
+			}
+		}
+	}
+}

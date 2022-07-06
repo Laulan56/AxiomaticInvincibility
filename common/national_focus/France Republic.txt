@@ -174,8 +174,8 @@
 	}
 	
 	focus = {#法兰西万岁
-		id = FRA_vive_la_france
-		icon = GFX_focus_FRA_vive_la_france
+		id = FRA_viva_la_france
+		icon = GFX_focus_FRA_viva_la_france
 		x = 6
 		y = 2
 		prerequisite = { focus = FRA_limited_reform }

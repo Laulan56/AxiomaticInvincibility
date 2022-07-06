@@ -1,0 +1,32 @@
+ideas = {
+		
+		HAM_hanbao_jingjitequ = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HAM_hanbao_jingjitequ"}
+			picture = HAM_hanbao_jingjitequ
+			modifier = {
+				industrial_capacity_factory = 0.2
+				production_speed_buildings_factor =0.15
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_arms_factory_factor = -0.3
+				consumer_goods_factor = -0.15
+			}
+			targeted_modifier = {
+				tag = ENG
+				extra_trade_to_target_factor = 0.2
+				cic_to_target_factor = 0.60
+				mic_to_target_factor = 0.60
+			}
+		}
+		HAM_deyizhi_mingzhu = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HAM_deyizhi_mingzhu"}
+			picture = HAM_deyizhi_mingzhu
+			modifier = {
+				political_power_factor = 0.1
+				stability_factor = 0.15
+				global_building_slots_factor = 0.15
+				war_support_factor = -0.1
+				war_support_weekly = -0.01
+			}
+		}
+
+}

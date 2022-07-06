@@ -1,9 +1,9 @@
 ﻿l_english:
- SPR_vanguard_socialist_party:0 "西班牙共产党"
- SPR_marxist_party:0 "西班牙工社党（左派）"
+ SPR_vanguard_socialist_party:0 "社会主义联合党（国际派）"
+ SPR_marxist_party:0 "社会主义联合党（本土派）"
  SPR_anarchist_party:0 "全国劳工联盟"
- SPR_moderate_socialist_party:0 "西班牙工社党（中派）"
- SPR_social_democrat_party:0 "西班牙工社党（右派）"
+ SPR_moderate_socialist_party:0 "民主社会党"
+ SPR_social_democrat_party:0 "工人社会党"
  SPR_social_liberal_party:0 "左翼共和党"
  SPR_liberal_conservative_party:0 "共和联盟"
  SPR_social_conservative_party:0 "保守民主派"
