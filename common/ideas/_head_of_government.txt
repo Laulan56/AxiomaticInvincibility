@@ -1,0 +1,36 @@
+ideas = {
+
+	head_of_government = { 
+		law = yes
+		
+		### France ###
+		FRA_AI_Camille_Chautemps_HOG = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+				has_government = social_liberal
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sl_trait
+				AI_compassionate_gentleman
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	
+	
+	}
+}

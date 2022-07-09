@@ -1,0 +1,105 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14
+	}
+
+	### GOVERNMENT TYPES ###
+
+	spriteType = {
+		name = "GFX_idea_AI_Council_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Council_Republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Congress_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Congress_Republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Presidential_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Presidential_Republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Constitutional_Monarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Constitutional_Monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Autocratic_Monarchy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Autocratic_Monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Military_Government"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Military_Government.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Civilan_Dictatorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Civilan_Dictatorship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Personal_Dictatorship"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Personal_Dictatorship.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Non_Parties"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Non_Parties.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_One_party_system"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_One_party_system.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Limited_Multiparty"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Limited_Multiparty.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Multi_Party"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Multi_Party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Parliamentary_Republic"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Parliamentary_Republic.dds"
+	}
+
+
+	### MINISTERS - HEAD OF GOVERNMENT ###
+
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Camille_Chautemps_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Camille_Chautemps_HOG.dds"
+	}
+
+	### MINISTERS - ECONOMY MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Louis_Germain_Martin_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Louis_Germain_Martin_EM.dds"
+	}
+
+	### MINISTERS - FOREIGN MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Aristide_Briand_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/France/FRA_AI_Aristide_Briand_FM.dds"
+	}
+
+	### MINISTERS - INTERNAL MINISTERS ###
+
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Rene_Renoult_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Rene_Renoult_IM.dds"
+	}
+
+}

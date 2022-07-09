@@ -1,0 +1,37 @@
+ideas = {
+
+	economics_minister = { 
+		law = yes
+	
+		### France ###
+		FRA_AI_Louis_Germain_Martin_EM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+				has_government = social_liberal
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sl_trait
+				AI_industrialiser
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	
+	
+	
+	}
+}

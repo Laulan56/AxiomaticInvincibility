@@ -31,7 +31,6 @@ idea_categories = {
 		slot = voting_right
 		slot = mobilization_laws
 		
-		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
@@ -45,19 +44,17 @@ idea_categories = {
 		slot = economy
 		slot = trade_laws
 		
-		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0
 	}
 	
-	ministers = {
+	cabinet = {
 		slot = head_of_government
 		slot = foreign_minister
-		slot = economy_minister
+		slot = economics_minister
 		slot = internal_minister
 		
-		ledger = civilian
 		
 		cost = 150
 		removal_cost = 0

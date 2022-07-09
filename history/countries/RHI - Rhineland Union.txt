@@ -130,21 +130,21 @@ set_popularities = {
 create_country_leader = {
 	name = "Rhineland Trusteeship Council"
 	desc = RHINELAND_TRUSTEESHIP_COUNCIL_DESC
-	picture = "gfx/leaders/GER_00/Rhineland Trusteeship Council.png"
+	picture = "gfx/leaders/GER_00/Portrait_RHI_Rhineland_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_liberal_subtype
 }
 create_country_leader = {
 	name = "Rhineland Trusteeship Council"
 	desc = RHINELAND_TRUSTEESHIP_COUNCIL_DESC
-	picture = "gfx/leaders/GER_00/Rhineland Trusteeship Council.png"
+	picture = "gfx/leaders/GER_00/Portrait_RHI_Rhineland_Council.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy_subtype
 }
 create_country_leader = {
 	name = "Rhineland Trusteeship Council"
 	desc = RHINELAND_TRUSTEESHIP_COUNCIL_DESC
-	picture = "gfx/leaders/GER_00/Rhineland Trusteeship Council.png"
+	picture = "gfx/leaders/GER_00/Portrait_RHI_Rhineland_Council.dds"
 	expire = "1965.1.1"
 	ideology = liberal_conservative_subtype
 }

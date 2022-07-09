@@ -4,38 +4,74 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        state_owned_media = {
+        AI_State_Owned_Media = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_State_Owned_Media
 
             modifier = {
                 political_power_gain = 0.15
-                drift_defence_factor = 0.25
+                drift_defence_factor = 0.50
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
 
-        media_review = {
+        AI_Media_Review = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Media_Review
 
             modifier = {
-                political_power_gain = 0.15
+                political_power_gain = 0.10
                 drift_defence_factor = 0.25
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
 
-        free_media = {
+        AI_Free_Media = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Free_Media
 
             modifier = {
-                political_power_gain = 0.15
-                drift_defence_factor = 0.25
+                political_power_gain = 0.05
+                stability_factor = 0.05
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
@@ -47,90 +83,185 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        political_system_1 = {
+        AI_Council_Republic = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Council_Republic
 
             modifier = {
                 stability_factor = 0.05
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
             cancel_if_invalid = no
         }  
 
-        political_system_2 = {
+        AI_Congress_Republic = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Congress_Republic
 
             modifier = {
                 stability_factor = 0.03
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_3 = {
+        AI_Presidential_Republic = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Presidential_Republic
 
             modifier = {
                 stability_factor = 0.02
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_4 = {
+        AI_Constitutional_Monarchy = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Constitutional_Monarchy
 
             modifier = {
                 stability_factor = 0.01
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_5 = {
+        AI_Autocratic_Monarchy = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Autocratic_Monarchy
 
             modifier = {
                 stability_factor = -0.01
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_6 = {
+        AI_Military_Government = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Military_Government
 
             modifier = {
                 stability_factor = -0.02
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_7 = {
+        AI_Civilan_Dictatorship = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Civilan_Dictatorship
 
             modifier = {
                 stability_factor = -0.03
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_system_8 = {
+        AI_Personal_Dictatorship = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Personal_Dictatorship
 
             modifier = {
                 stability_factor = -0.05
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
@@ -141,49 +272,97 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        political_party_1 = {
+        AI_Non_Parties = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Non_Parties
 
             modifier = {
                 stability_factor = -0.03
                 political_power_factor = 0.15
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }  
 
-        political_party_2 = {
+        AI_One_party_system = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_One_party_system
 
             modifier = {
                 stability_factor = -0.01
                 political_power_factor = 0.1
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_party_3 = {
+        AI_Limited_Multiparty = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Limited_Multiparty
 
             modifier = {
                 stability_factor = 0.01
                 political_power_factor = 0.05
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        political_party_4 = {
+        AI_Multi_Party = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Multi_Party
 
             modifier = {
                 stability_factor = 0.03
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
@@ -194,9 +373,13 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        trade_union_1 = {
+        AI_Trade_Unions_Banned = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Trade_Unions_Banned
 
             modifier = {
                 industrial_capacity_factory = 0.03
@@ -205,12 +388,24 @@ ideas = {
                 industrial_capacity_dockyard = 0.03
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        trade_union_2 = {
+        AI_Trade_Unions_State_Controlled = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Trade_Unions_State_Controlled
 
             modifier = {
                 industrial_capacity_factory = 0.02
@@ -219,23 +414,47 @@ ideas = {
                 industrial_capacity_dockyard = 0.02
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        trade_union_3 = {
+        AI_Trade_Unions_Non_Socialist = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Trade_Unions_Non_Socialist
 
             modifier = {
                 stability_factor = 0.03
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        trade_union_4 = {
+        AI_Trade_Unions_All_Allowed = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Trade_Unions_All_Allowed
 
             modifier = {
                 industrial_capacity_factory = -0.03
@@ -243,6 +462,14 @@ ideas = {
                 stability_factor = 0.02
                 industrial_capacity_dockyard = -0.03
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }
@@ -253,49 +480,97 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        voting_right_1 = {
+        AI_Non_Election = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Non_Election
 
             modifier = {
                 political_power_gain = 0.15
                 stability_factor = -0.05
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        voting_right_2 = {
+        AI_Elite_Election = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Elite_Election
 
             modifier = {
                 political_power_gain = 0.1
                 stability_factor = -0.03
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        voting_right_3 = {
+        AI_Qualification_Election = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Qualification_Election
 
             modifier = {
                 political_power_gain = 0.05
             }
 
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
             cancel_if_invalid = no
         }
 
-        voting_right_4 = {
+        AI_Universal_suffrage = {
             
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Universal_suffrage
 
             modifier = {
                 political_power_gain = -0.05
                 stability_factor = 0.03
             }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
         }

@@ -1,0 +1,36 @@
+ideas = {
+
+	foreign_minister = { 
+		law = yes
+	
+	    ### France ###
+		FRA_AI_Aristide_Briand_FM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+				has_government = social_liberal
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sl_trait
+				AI_venerable_diplomat
+			}
+			
+			cancel_if_invalid = no
+		}
+	
+	
+	
+	}
+}

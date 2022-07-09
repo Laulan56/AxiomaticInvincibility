@@ -6,7 +6,9 @@ ideas = {
 
 		undisturbed_isolation = {
 
-
+			visible = {
+				original_tag = USA
+			}
 			
 			removal_cost = -1
 
@@ -40,6 +42,9 @@ ideas = {
 
 		isolation = {
 
+			visible = {
+				original_tag = USA
+			}
 			
 			removal_cost = -1
 
@@ -460,59 +465,7 @@ ideas = {
 			cancel_if_invalid = no
 		}
 
-		new_economic_policy = {
-
-			picture = new_economic_policy
-
-			
-			allowed_to_remove = {
-				OR = {
-					surrender_progress > 0.75
-					NOT = { has_government = communism }
-				}
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.15
-				production_speed_buildings_factor = -0.15
-
-			}
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-   				factor = 0
-   			}
-		}
-		new_economic_policy_2 = {
-			name = new_economic_policy
-
-			picture = new_economic_policy
-
-			
-			allowed_to_remove = {
-				OR = {
-					surrender_progress > 0.75
-					NOT = { has_government = communism }
-				}
-			}
-
-			removal_cost = -1
-
-			modifier = {
-				consumer_goods_factor = 0.10
-				production_speed_buildings_factor = -0.2
-				global_building_slots_factor = 0.1
-			}
-
-			cancel_if_invalid = no
-
-			ai_will_do = {
-   				factor = 0
-   			}
-		}
+		
 	}
 
 	trade_laws = {
@@ -848,14 +801,18 @@ ideas = {
    			}
 		}
 	}
-
+	
 	economic_system = {
 		law = yes
 		use_list_view = yes
 
-		economic_system_1 = {
+		AI_Free_Market_Capitalism = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Free_Market_Capitalism
 
             modifier = {
                 production_speed_buildings_factor = 0.02
@@ -863,13 +820,25 @@ ideas = {
 				industrial_capacity_factory = 0.02
 				consumer_goods_factor = 0.02
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		economic_system_2 = {
+		AI_Mixed_Market_Capitalism = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Mixed_Market_Capitalism
 
             modifier = {
                 production_speed_buildings_factor = 0.04
@@ -877,13 +846,25 @@ ideas = {
 				industrial_capacity_factory = 0.02
 				consumer_goods_factor = 0.03
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		economic_system_3 = {
+		AI_State_Capitalism = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_State_Capitalism
 
             modifier = {
 				industrial_capacity_dockyard = 0.05
@@ -892,13 +873,25 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.02
 				production_factory_efficiency_gain_factor = 0.02
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		economic_system_4 = {
+		AI_Corporatism = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Corporatism
 
             modifier = {
                 production_speed_buildings_factor = 0.04
@@ -908,160 +901,193 @@ ideas = {
 				production_factory_start_efficiency_factor = 0.01
 				production_factory_efficiency_gain_factor = 0.02
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		economic_system_5 = {
+		AI_Centrally_Planned_Economy = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Centrally_Planned_Economy
 
             modifier = {
                 production_speed_buildings_factor = 0.08
 				consumer_goods_factor = -0.02
 				production_factory_max_efficiency_factor = 0.04
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		economic_system_6 = {
+		AI_Democratic_Planned_Economy = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Democratic_Planned_Economy
 
             modifier = {
                 production_speed_buildings_factor = 0.04
 				consumer_goods_factor = -0.02
 				production_factory_max_efficiency_factor = 0.08
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 	}
 
-	ownership_system = {
-		law = yes
-		use_list_view = yes
-
-		ownership_system_1 = {
-			
-			removal_cost = -1
-
-            modifier = {
-				consumer_goods_factor = -0.03
-				production_factory_max_efficiency_factor = 0.03
-				production_factory_efficiency_gain_factor = 0.04
-            }
-
-            cancel_if_invalid = no
-		}
-
-		ownership_system_2 = {
-			
-			removal_cost = -1
-
-            modifier = {
-				consumer_goods_factor = -0.02
-				production_factory_max_efficiency_factor = 0.03
-				production_factory_start_efficiency_factor = 0.03
-            }
-
-            cancel_if_invalid = no
-		}
-
-		ownership_system_3 = {
-			
-			removal_cost = -1
-
-            modifier = {
-				consumer_goods_factor = 0.01
-				production_factory_start_efficiency_factor = 0.02
-				production_factory_efficiency_gain_factor = 0.04
-				industrial_capacity_dockyard = 0.02
-				industrial_capacity_factory = 0.02
-            }
-
-            cancel_if_invalid = no
-		}
-
-		ownership_system_4 = {
-			
-			removal_cost = -1
-
-            modifier = {
-				industrial_capacity_dockyard = 0.05
-				industrial_capacity_factory = 0.05
-				consumer_goods_factor = 0.03
-            }
-
-            cancel_if_invalid = no
-		}
-
-	}
 
 	work_hour = {
 		law = yes
 		use_list_view = yes
 
-		work_hour_1 = {
+		AI_Six_Hour_Work = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Six_Hour_Work
 
             modifier = {
                 stability_factor = 0.03
 				industrial_capacity_factory = -0.05
 				production_factory_start_efficiency_factor = 0.1
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		work_hour_2 = {
+		AI_Eight_Hour_Work = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Eight_Hour_Work
 
             modifier = {
                 stability_factor = 0.015
 				industrial_capacity_factory = -0.025
 				production_factory_start_efficiency_factor = 0.05
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		work_hour_3 = {
+		AI_Twelve_Hour_Work = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Twelve_Hour_Work
 
             modifier = {
 
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		work_hour_4 = {
+		AI_Fourteen_Hour_Work = {
 
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Fourteen_Hour_Work
 
             modifier = {
                 stability_factor = -0.015
 				industrial_capacity_factory = 0.025
 				production_factory_start_efficiency_factor = -0.04
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		work_hour_5 = {
+		AI_Unlimited_Hour_Work = {
 
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Unlimited_Hour_Work
 
             modifier = {
                 stability_factor = -0.03
 				industrial_capacity_factory = 0.05
 				production_factory_start_efficiency_factor = -0.08
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
@@ -1072,52 +1098,100 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		benefit_1 = {
+		AI_High_Welfare = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_High_Welfare
 
             modifier = {
                 stability_factor = 0.08
-				weekly_manpower = 0.15
+				monthly_population = 0.30
 				consumer_goods_factor = 0.05
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		benefit_2 = {
+		AI_Medium_Welfare = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Medium_Welfare
 
             modifier = {
                 stability_factor = 0.04
-				weekly_manpower = 0.075
+				monthly_population = 0.125
 				consumer_goods_factor = 0.025
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		benefit_3 = {
+		AI_Basic_Welfare = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Basic_Welfare
 
             modifier = {
 
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		benefit_4 = {
+		AI_Low_Welfare = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Low_Welfare
 
             modifier = {
                 stability_factor = -0.06
 				weekly_manpower = -0.1
 				consumer_goods_factor = -0.03
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
@@ -1128,55 +1202,106 @@ ideas = {
 		law = yes
 		use_list_view = yes
 
-		education_1 = {
+		AI_Public_Higher_Education = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Public_Higher_Education
 
             modifier = {
                 stability_factor = 0.04
-				research_time_factor = 0.06
+				research_speed_factor = 0.06
 				consumer_goods_factor = 0.03
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		education_2 = {
+		AI_Subsidize_Higher_Education = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Subsidize_Higher_Education
 
             modifier = {
                 stability_factor = 0.02
-				research_time_factor = 0.03
+				research_speed_factor = 0.03
 				consumer_goods_factor = 0.015
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		education_3 = {
+		AI_Public_Basic_Education = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Public_Basic_Education
 
             modifier = {
 
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
-		education_4 = {
+		AI_Non_Public_Education = {
 			
+			cost = 0
 			removal_cost = -1
+			level = 7
+			
+			picture = AI_Non_Public_Education
 
             modifier = {
                 stability_factor = -0.04
-				research_time_factor = -0.08
+				research_speed_factor = -0.08
 				consumer_goods_factor = -0.04
             }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
 
             cancel_if_invalid = no
 		}
 
 	}
+	
+
+	
 }

@@ -132,6 +132,21 @@ add_ideas = {
 	FRA_ouzhou_bazhu
 	FRA_yidairen_jiyi
 	FRA_zhanhao_suiyue
+	
+	AI_Free_Media
+	AI_Congress_Republic
+	AI_Multi_Party
+	AI_Trade_Unions_All_Allowed
+	AI_Qualification_Election
+	AI_Public_Basic_Education
+	AI_Basic_Welfare
+	AI_Eight_Hour_Work
+	AI_Free_Market_Capitalism
+	
+	FRA_AI_Camille_Chautemps_HOG
+	FRA_AI_Aristide_Briand_FM
+	FRA_AI_Rene_Renoult_IM
+	FRA_AI_Louis_Germain_Martin_EM
 }
 
 create_faction = ParisConvention

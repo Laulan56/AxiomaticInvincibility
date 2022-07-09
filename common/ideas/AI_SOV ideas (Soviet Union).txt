@@ -36,7 +36,7 @@ ideas = {
 				industrial_capacity_factory = -0.10
 				production_factory_max_efficiency_factor = 0.05
 				production_factory_efficiency_gain_factor = -0.10
-				production_lack_of_resource_penalty_factor = -0.10
+				local_resources_factor = 0.10
 			}
 		}
 		SOV_futejia_jiushui = {
