@@ -1,14 +1,5 @@
 ﻿capital = 16
 oob = "FRA"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
-	}
-}
 
 country_event = { id = fra.1 days = 1 }#介绍
 
@@ -19,6 +10,7 @@ set_autonomy = {
 
 set_research_slots = 4
 set_stability = 0.8
+set_war_support = 0.35
 
 
 # Starting tech

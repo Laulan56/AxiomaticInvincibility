@@ -72,6 +72,26 @@ spriteTypes = {
 		name = "GFX_idea_AI_Parliamentary_Republic"
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Parliamentary_Republic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_State_Owned_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_State_Owned_Media.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Media_Review"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Media_Review.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Semi_Independent_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Semi_Independent_Media.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Free_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Free_Media.dds"
+	}
 
 
 	### MINISTERS - HEAD OF GOVERNMENT ###
