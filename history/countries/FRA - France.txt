@@ -1,14 +1,5 @@
 ﻿capital = 16
 oob = "FRA"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "FRA_1936_naval_mtg"
-		set_war_support = 0.1
-	else = {
-		set_naval_oob = "FRA_1936_naval_legacy"
-		set_war_support = 0.15
-	}
-}
 
 country_event = { id = fra.1 days = 1 }#介绍
 
@@ -19,6 +10,7 @@ set_autonomy = {
 
 set_research_slots = 4
 set_stability = 0.8
+set_war_support = 0.35
 
 
 # Starting tech
@@ -118,10 +110,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 40
+	social_liberal = 50
 	liberal_conservative = 7
-	social_democrat = 24
-	moderate_socialist = 13
+	social_democrat = 19
+	moderate_socialist = 8
 	social_conservative = 4
 	vanguard_socialist = 6
 	marxist = 5

@@ -72,6 +72,26 @@ spriteTypes = {
 		name = "GFX_idea_AI_Parliamentary_Republic"
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Parliamentary_Republic.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_State_Owned_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_State_Owned_Media.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Media_Review"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Media_Review.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Semi_Independent_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Semi_Independent_Media.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Free_Media"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Free_Media.dds"
+	}
 
 
 	### MINISTERS - HEAD OF GOVERNMENT ###
@@ -80,12 +100,22 @@ spriteTypes = {
 		name = "GFX_idea_FRA_AI_Camille_Chautemps_HOG"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Camille_Chautemps_HOG.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_AI_Yakov_Sverdlov_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/Soviet/SOV_AI_Yakov_Sverdlov_HOG.dds"
+	}
 
 	### MINISTERS - ECONOMY MINISTERS ###
 
 	spriteType = {
 		name = "GFX_idea_FRA_AI_Louis_Germain_Martin_EM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Louis_Germain_Martin_EM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_AI_Ivan_Smirnov_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Soviet/SOV_AI_Ivan_Smirnov_EM.dds"
 	}
 
 	### MINISTERS - FOREIGN MINISTERS ###
@@ -94,12 +124,22 @@ spriteTypes = {
 		name = "GFX_idea_FRA_AI_Aristide_Briand_FM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/France/FRA_AI_Aristide_Briand_FM.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_AI_Irakli_Tsereteli_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Soviet/SOV_AI_Irakli_Tsereteli_FM.dds"
+	}
 
 	### MINISTERS - INTERNAL MINISTERS ###
 
 	spriteType = {
 		name = "GFX_idea_FRA_AI_Rene_Renoult_IM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Rene_Renoult_IM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SOV_AI_Isaac_Steinberg_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/Soviet/SOV_AI_Isaac_Steinberg_IM.dds"
 	}
 
 }

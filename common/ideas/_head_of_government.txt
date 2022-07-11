@@ -11,7 +11,6 @@ ideas = {
 
 			visible = {
 				original_tag = FRA
-				has_government = social_liberal
 			}
 			
 			allowed_to_remove = { 
@@ -29,8 +28,39 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
-	
-	
-	
+		
+		###Prussia###
+		
+		
+		###Great British###
+		
+		
+		###Soviet Union###
+		SOV_AI_Yakov_Sverdlov_HOG = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = SOV
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_vs_trait
+				AI_black_devil
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		
 	}
 }

@@ -11,7 +11,6 @@ ideas = {
 
 			visible = {
 				original_tag = FRA
-				has_government = social_liberal
 			}
 			
 			allowed_to_remove = { 
@@ -29,8 +28,38 @@ ideas = {
 			
 			cancel_if_invalid = no
 		}
-	
-	
-	
+		
+		
+		###Prussia###
+		
+		
+		###Great British###
+		
+		
+		###Soviet Union###
+		SOV_AI_Irakli_Tsereteli_FM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = SOV
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_great_compromiser
+			}
+			
+			cancel_if_invalid = no
+		}
 	}
 }
