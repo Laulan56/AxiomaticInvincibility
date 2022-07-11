@@ -1,16 +1,18 @@
 ﻿l_english:
-l_english:
  FRA_vanguard_socialist_party:0 "法国共产党（国际派）"
  FRA_marxist_party:0 "法国共产党（本土派）"
  FRA_anarchist_party:0 "劳工总联合会"
  FRA_moderate_socialist_party:0 "法国社会党（激进派）"
  FRA_social_democrat_party:0 "法国社会党"
  FRA_social_liberal_party:0 "激进党"
- FRA_liberal_conservative_party:0 "民主联盟"
+ FRA_liberal_conservative_party:0 "民主同盟"
  FRA_social_conservative_party:0 "共和联盟"
  FRA_authoritarian_democrat_party:0 "法国陆军"
  FRA_despotist_party:0 "保皇派"
  FRA_revolutionary_nationalist_party:0 "火十字团"
+ 
+ FRA_social_liberal_party_long: "激进党(Parti Radical)\n§L激进党于1901年成立，它更正式的名称为“激进派社会主义者与激进共和主义者党”，在“激进”共和派中，是一个中间偏左的政党。历史上，激进党在第三共和国的政治舞台上有至关重要的地位，赞成经济与社会自由。激进党与议会制度有深厚的羁绊，并且强调极端的世俗化政策，他们对神职人员对政治的干涉更是充满警惕。在世界大战胜利后，激进党在法国议会一直保持着一党独大的优势，党内成员也因此对自由主义的信仰愈发坚定，激进党的立场也在长年对英的防御中逐渐左倾，尽管他们离社会主义政党仍然有一定距离，但在大部分情况下他们都支持一些社会的改良措施。现在，作为第三共和国议会中的霸权，激进党已经成为了共和国的代表。§!\n"
+ 
  FRA_ouzhou_bazhu:0 "欧陆霸主"
  FRA_ouzhou_bazhu_desc:0 "自世界大战胜利以后，苏俄被击退、德国被肢解，使我们成为了毫无争议的欧陆霸主，没有任何一个国家胆敢挑战我们......除非英吉利海峡被联通。"
  FRA_yidairen_jiyi:0 "一代人的血"

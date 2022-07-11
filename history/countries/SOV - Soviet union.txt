@@ -123,6 +123,21 @@ add_ideas = {
 	SOV_liangshi_gongying_3
 	SOV_futejia_jiushui
 	SOV_geming_fayuandi
+	
+	AI_Council_Republic
+	AI_Limited_Multiparty
+	AI_State_Owned_Media
+	AI_Trade_Unions_State_Controlled
+	AI_Universal_suffrage
+	AI_State_Capitalism
+	AI_Eight_Hour_Work
+	AI_Medium_Welfare
+	AI_Subsidize_Higher_Education
+	
+	SOV_AI_Yakov_Sverdlov_HOG
+	SOV_AI_Irakli_Tsereteli_FM
+	SOV_AI_Ivan_Smirnov_EM
+	SOV_AI_Isaac_Steinberg_IM
 }
 
 create_faction = Comintern

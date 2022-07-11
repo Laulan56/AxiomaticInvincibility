@@ -110,10 +110,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 40
+	social_liberal = 50
 	liberal_conservative = 7
-	social_democrat = 24
-	moderate_socialist = 13
+	social_democrat = 19
+	moderate_socialist = 8
 	social_conservative = 4
 	vanguard_socialist = 6
 	marxist = 5
