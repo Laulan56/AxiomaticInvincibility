@@ -190,7 +190,7 @@ set_popularities = {
 	social_democrat = 6
 	liberal_conservative = 5
 	social_conservative = 9
-	paternal_autocrat = 32
+	despotist = 32
 }
 
 create_faction = WestminsterUnion
@@ -210,24 +210,13 @@ add_to_faction = MAL
 # Order matters - here Chamberlain becomes starting leader
 
 create_country_leader = {
-	name = "Stanley Baldwin"
-	desc = "POLITICS_STANLEY_BALDWIN_DESC"
-	picture = "gfx/leaders/ENG/Britain_Stanley_Baldwin.dds"
+	name = "George V"
+	desc = "POLITICS_GEORGE_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_ENG_George_V.dds"
 	expire = "1938.1.1"
-	ideology = authoritarian_democrat_group
+	ideology = authoritarian_democrat_subtype
 	traits = {
-		conservative_grandee
-	}
-}
-
-create_country_leader = {
-	name = "Winston Churchill"
-	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+		AI_old_noble
 	}
 }
 

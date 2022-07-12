@@ -60,18 +60,22 @@
  cabinet:0 "内阁"
  head_of_government:0 "政府首脑"
  FRA_AI_Camille_Chautemps_HOG:0 "卡米耶·肖当"
+ GER_AI_Philipp_Scheidemann_HOG:0 "菲利普·谢德曼"
  SOV_AI_Yakov_Sverdlov_HOG:0 "雅科夫·斯维尔德洛夫"
  
  foreign_minister:0 "外交部长"
  FRA_AI_Aristide_Briand_FM:0 "阿里斯蒂德·白里安"
+ GER_AI_Hermann_Muller_FM:0 "赫尔曼·缪勒"
  SOV_AI_Irakli_Tsereteli_FM:0 "伊拉克利·策列铁里"
  
  economics_minister:0 "经济部长"
  FRA_AI_Louis_Germain_Martin_EM:0 "路易斯·吉尔曼-马丁"
+ GER_AI_Gustav_Bauer_EM:0 "古斯塔夫·鲍尔"
  SOV_AI_Ivan_Smirnov_EM:0 "伊万·斯米尔诺夫"
  
  internal_minister:0 "内务部长"
  FRA_AI_Rene_Renoult_IM:0 "勒内·勒努"
+ GER_AI_Otto_Braun_IM:0 "奥托·布劳恩"
  SOV_AI_Isaac_Steinberg_IM:0 "伊萨克·斯坦伯格"
  
  

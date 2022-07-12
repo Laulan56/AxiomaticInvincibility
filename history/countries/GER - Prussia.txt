@@ -127,6 +127,21 @@ add_ideas = {
 	PRU_weiershi_fanrong
 	PRU_zhanbai_zhe
 	PRU_hunluan_de_zhengzhi
+	
+	AI_Presidential_Republic
+	AI_Multi_Party
+	AI_Free_Media
+	AI_Trade_Unions_All_Allowed
+	AI_Qualification_Election
+	AI_Free_Market_Capitalism
+	AI_Twelve_Hour_Work
+	AI_Medium_Welfare
+	AI_Public_Basic_Education
+	
+	GER_AI_Philipp_Scheidemann_HOG
+	GER_AI_Hermann_Muller_FM
+	GER_AI_Gustav_Bauer_EM
+	GER_AI_Otto_Braun_IM
 }
 
 

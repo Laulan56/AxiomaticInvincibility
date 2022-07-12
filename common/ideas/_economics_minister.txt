@@ -31,7 +31,30 @@ ideas = {
 		
 		
 		###Prussia###
-		
+		GER_AI_Gustav_Bauer_EM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = GER
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_economic_reformer
+			}
+			
+			cancel_if_invalid = no
+		}
 		
 		###Great British###
 		

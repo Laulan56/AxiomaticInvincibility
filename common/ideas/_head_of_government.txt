@@ -30,7 +30,30 @@ ideas = {
 		}
 		
 		###Prussia###
-		
+		GER_AI_Philipp_Scheidemann_HOG = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = GER
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_political_protege
+			}
+			
+			cancel_if_invalid = no
+		}
 		
 		###Great British###
 		

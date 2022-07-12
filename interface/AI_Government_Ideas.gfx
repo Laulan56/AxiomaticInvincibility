@@ -92,13 +92,60 @@ spriteTypes = {
 		name = "GFX_idea_AI_Free_Media"
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Free_Media.dds"
 	}
-
+	
+	spriteType = {
+		name = "GFX_idea_AI_Trade_Unions_Banned"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Trade_Unions_Banned.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Trade_Unions_State_Controlled"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Trade_Unions_State_Controlled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Trade_Unions_Non_Socialist"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Trade_Unions_Non_Socialist.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Trade_Unions_All_Allowed"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Trade_Unions_All_Allowed.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_AI_Public_Higher_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Public_Higher_Education.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Subsidize_Higher_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Subsidize_Higher_Education.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Public_Basic_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Public_Basic_Education.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Non_Public_Education"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Non_Public_Education.dds"
+	}
+	
 
 	### MINISTERS - HEAD OF GOVERNMENT ###
 
 	spriteType = {
 		name = "GFX_idea_FRA_AI_Camille_Chautemps_HOG"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Camille_Chautemps_HOG.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_AI_Philipp_Scheidemann_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/German/GER_AI_Philipp_Scheidemann_HOG.dds"
 	}
 	
 	spriteType = {
@@ -114,6 +161,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_GER_AI_Gustav_Bauer_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/German/GER_AI_Gustav_Bauer_EM.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_SOV_AI_Ivan_Smirnov_EM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/Soviet/SOV_AI_Ivan_Smirnov_EM.dds"
 	}
@@ -126,6 +178,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_GER_AI_Hermann_Muller_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/German/GER_AI_Hermann_Muller_FM.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_SOV_AI_Irakli_Tsereteli_FM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/Soviet/SOV_AI_Irakli_Tsereteli_FM.dds"
 	}
@@ -135,6 +192,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_FRA_AI_Rene_Renoult_IM"
 		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Rene_Renoult_IM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_AI_Otto_Braun_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/German/GER_AI_Otto_Braun_IM.dds"
 	}
 	
 	spriteType = {
