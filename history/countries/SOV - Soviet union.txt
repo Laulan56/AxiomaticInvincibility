@@ -150,5 +150,200 @@ create_country_leader = {
 	ideology = vanguard_socialist_subtype
 }
 
+create_field_marshal = {
+	name = "Mikhail Tukhachevsky"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Mikhail_Tukhachevsky.dds"
+	traits = { brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
+	skill = 4
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 3
+}
 
+create_field_marshal = {
+	name = "Kliment Voroshilov"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Kliment_Voroshilov.dds"
+	traits = { old_guard inflexible_strategist politically_connected }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
 
+create_field_marshal = {
+	name = "Vasily Blyukher"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Vasily_Blyukher.dds"
+	traits = { old_guard career_officer infantry_officer organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+	name = "Semyon Budyonny"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Semyon_Budyonny.dds"
+	traits = { old_guard inflexible_strategist politically_connected cavalry_leader }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Alexander Yegorov"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Alexander_Yegorov.dds"
+	traits = { career_officer inflexible_strategist trait_reckless }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Georgy Zhukov"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Georgy_Zhukov.dds"
+	traits = { media_personality armor_officer war_hero winter_specialist }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Semyon Timoshenko"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Semyon_Timoshenko.dds"
+	traits = { career_officer cavalry_officer politically_connected }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Ivan Konev"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Ivan_Konev.dds"
+	traits = { harsh_leader armor_officer politically_connected }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Aleksandr Vasilevsky"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Aleksandr_Vasilevsky.dds"
+	traits = { armor_officer politically_connected }
+	skill = 4
+	attack_skill = 4
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ivan Bagramyan"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Ivan_Bagramyan.dds"
+	traits = { infantry_leader cavalry_leader  }
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Leonid Govorov"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Leonid_Govorov.dds"
+	traits = { infantry_leader  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Grigory Kulik"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Grigory_Kulik.dds"
+	traits = { old_guard inflexible_strategist career_officer politically_connected }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Konstantin Rokossovsky"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Konstantin_Rokossovsky.dds"
+	traits = { brilliant_strategist trait_cautious armor_officer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Rodion Malinovsky"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Rodion_Malinovsky.dds"
+	traits = { old_guard career_officer trait_cautious politically_connected }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Boris Shaposhnikov"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Boris_Shaposhnikov.dds"
+	traits = { career_officer trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Fyodor Tolbukhin"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Fyodor_Tolbukhin.dds"
+	traits = { infantry_leader }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Ieronim Uborevich"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Ieronim_Uborevich.dds"
+	traits = { infantry_leader }
+	skill = 2
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Andrey Yeryomenko"
+	portrait_path = "gfx/leaders/SOV/Portrait_SOV_Andrey_Yeryomenko.dds"
+	traits = { trait_reckless cavalry_officer }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
