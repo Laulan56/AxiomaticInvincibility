@@ -124,6 +124,16 @@ add_ideas = {
 	ENG_aierlan_dongdang
 	ENG_judade_zhiminkaizhi
 	ENG_zhanhao_suiyue
+	
+	AI_Constitutional_Monarchy
+	AI_Limited_Multiparty
+	AI_Semi_Independent_Media
+	AI_Trade_Unions_Non_Socialist
+	AI_Qualification_Election
+	AI_Free_Market_Capitalism
+	AI_Ten_Hour_Work
+	AI_Basic_Welfare
+	AI_Public_Basic_Education
 }
 	
 

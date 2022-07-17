@@ -107,7 +107,22 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
+	AI_Civilan_Dictatorship
+	AI_One_party_system
+	AI_State_Owned_Media
+	AI_Trade_Unions_State_Controlled
+	AI_Elite_Election
+	AI_Corporatism
+	AI_Ten_Hour_Work
+	AI_Basic_Welfare
+	AI_Public_Basic_Education
+}
 
+create_country_leader = {
+	name = "Benito Mussolini"
+	desc = "FRI_Benito_Mussolini_Desc"
+	picture = "gfx/leaders/FRI/Portrait_FRI_Benito_Mussolini.dds"
+	ideology = revolutionary_nationalist_subtype
 }
 
 set_politics = {

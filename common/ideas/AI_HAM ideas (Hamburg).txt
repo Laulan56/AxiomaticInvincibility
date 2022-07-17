@@ -2,7 +2,7 @@ ideas = {
 		
 		HAM_hanbao_jingjitequ = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HAM_hanbao_jingjitequ"}
-			picture = HAM_hanbao_jingjitequ
+			
 			modifier = {
 				industrial_capacity_factory = 0.2
 				production_speed_buildings_factor =0.15
@@ -19,7 +19,7 @@ ideas = {
 		}
 		HAM_deyizhi_mingzhu = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HAM_deyizhi_mingzhu"}
-			picture = HAM_deyizhi_mingzhu
+			
 			modifier = {
 				political_power_factor = 0.1
 				stability_factor = 0.15

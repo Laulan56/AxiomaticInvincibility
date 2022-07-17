@@ -132,7 +132,7 @@ add_ideas = {
 	AI_Qualification_Election
 	AI_Public_Basic_Education
 	AI_Basic_Welfare
-	AI_Eight_Hour_Work
+	AI_Ten_Hour_Work
 	AI_Free_Market_Capitalism
 	
 	FRA_AI_Camille_Chautemps_HOG

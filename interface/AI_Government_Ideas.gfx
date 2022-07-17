@@ -113,7 +113,77 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Trade_Unions_All_Allowed.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_AI_Non_Election"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Non_Election.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_AI_Elite_Election"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Elite_Election.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Qualification_Election"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Qualification_Election.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Universal_suffrage"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Universal_suffrage.dds"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_AI_Six_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Six_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Eight_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Eight_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Ten_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Ten_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Twelve_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Twelve_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Fourteen_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Fourteen_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Unlimited_Hour_Work"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Unlimited_Hour_Work.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_High_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_High_Welfare.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Medium_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Medium_Welfare.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Basic_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Basic_Welfare.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Non_Welfare"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Non_Welfare.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_AI_Public_Higher_Education"

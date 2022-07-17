@@ -1,7 +1,7 @@
 ﻿l_english:
  GER_vanguard_socialist_party:0 "德国共产党（先锋派）"
  GER_marxist_party:0 "德国共产党（斯巴达克派）"
- GER_anarchist_party:0 "巴枯宁主义者"
+ GER_anarchist_party:0 "德国自由工人联盟（AS）"
  GER_moderate_socialist_party:0 "德国独立社民党"
  GER_social_democrat_party:0 "德国社会民主党"
  GER_social_liberal_party:0 "德国民主党"
@@ -10,3 +10,12 @@
  GER_authoritarian_democrat_party:0 "德国国家人民党"
  GER_despotist_party:0 "霍亨索伦王朝"
  GER_revolutionary_nationalist_party:0 "德国工人党"
+ 
+ PRU_weiershi_fanrong:0 "威尔士繁荣"
+ PRU_weiershi_fanrong_desc:0 "通过一系列政治运作，社会民主党终于迎来了一段稳定的执政时期，开始恢复经济与社会秩序。这一切都仰仗于党魁奥托·威尔士的幕后操盘。"
+ PRU_zhanbai_zhe:0 "战败者"
+ PRU_zhanbai_zhe_desc:0 "“德意志，它在哪里？我看不到我找不到那块地方！”\n德皇的军事冒险以惨烈的完败告终：战后签署的《凡尔赛合约》成为了加在中欧上方的新锁链：它不仅解除了德意志的武装，夺取了其殖民利益，更是将该国打回到前十九世纪的分立格局......旨在让德意志诸国永世不得翻身。\n只有结束英法霸权与合约对于德意志地区的压制，该国才有谈论重回世界舞台的可能。"
+ PRU_hunluan_de_zhengzhi:0 "混乱的政治"
+ PRU_hunluan_de_zhengzhi_desc:0 "作为德意志帝国的主要继承者，普鲁士政府直接承担了战争战败的主要责任与赔付义务。随着英法势力的进入、经济的低迷与复仇主义的酝酿，该国的民主体制与主权正日益受到挑战：尽管平息了柏林等地的共产党运动，并压制了民族主义者的多地暴乱。但普鲁士社会仍未完全安定下来......社会动荡时有发生，街头斗殴、政党游行、宵禁与戒严更是家常便饭"
+ PRU_weima_xianfa:0 "魏玛宪法"
+ PRU_weima_xianfa_desc:0 "这部制定于1919年的宪法构建了新生共和国的基本架构与民主模式，规定了普鲁士是单一制下的总统制共和国。在保证民众对政权参与并确立内阁责任制的同时，也为总统保留了非常时期强化管制的集权条款。意味着普鲁士的总统职务是主宰该国政治生活的核心之核心......各方势力都想要通过总统职权来确立自身权威......"

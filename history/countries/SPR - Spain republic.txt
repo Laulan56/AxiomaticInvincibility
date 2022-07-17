@@ -34,13 +34,24 @@ if = {
 		set_variable = { var = SPA_garrison_control value = 1 }
 		SPA_garrison_control_cost_calculation = yes
 	}
-	add_ideas = {
-		SPR_gongnongye_bagong
-		SPR_junshipanluan_weixie
-		SPR_fenliede_guojia
-		SPR_lengmode_nongcun
-	}
 	
+	
+}
+add_ideas = {
+	SPR_gongnongye_bagong
+	SPR_junshipanluan_weixie
+	SPR_fenliede_guojia
+	SPR_lengmode_nongcun
+	
+	AI_Congress_Republic
+	AI_Multi_Party
+	AI_Free_Media
+	AI_Trade_Unions_All_Allowed
+	AI_Qualification_Election
+	AI_Free_Market_Capitalism
+	AI_Twelve_Hour_Work
+	AI_Basic_Welfare
+	AI_Public_Basic_Education
 }
 set_popularities = {
 	vanguard_socialist = 5
@@ -54,7 +65,7 @@ set_popularities = {
 	authoritarian_democrat = 12
 	despotist = 7
 	revolutionary_nationalist = 8
-	}
+}
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1933.2.16"

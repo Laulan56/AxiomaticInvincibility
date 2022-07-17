@@ -8,8 +8,8 @@ state={
 		victory_points = {
 			6626 1 
 		}
-		owner = YUG
-		add_core_of = ITA
+		owner = FRI
+		add_core_of = FRI
 		add_core_of = YUG
 		add_core_of = SLV
 		add_core_of = CRO

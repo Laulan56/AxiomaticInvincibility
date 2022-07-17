@@ -26,14 +26,6 @@ state={
 
 		}
 		add_core_of = FRI
-		1939.1.1 = {
-			buildings = {
-				dockyard = 2
-				industrial_complex = 5
-
-			}
-
-		}
 
 	}
 

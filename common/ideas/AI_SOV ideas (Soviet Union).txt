@@ -2,6 +2,24 @@ ideas = {
 
 	country = {
 	# Start
+		SOV_liangshi_gongying_1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_1"}
+			
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.10
+				stability_factor = -0.15
+			}
+		}
+		SOV_liangshi_gongying_2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_2"}
+			
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = -0.05
+				stability_factor = -0.075
+			}
+		}
 		SOV_liangshi_gongying_3 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_3"}
 			
@@ -9,6 +27,24 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.025
 				stability_factor = 0.05
+			}
+		}
+		SOV_liangshi_gongying_4 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_4"}
+			
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.10
+			}
+		}
+		SOV_liangshi_gongying_5 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea SOV_liangshi_gongying_5"}
+			
+			allowed = { always = no }
+			modifier = {
+				industrial_capacity_factory = 0.075
+				stability_factor = 0.15
 			}
 		}
 		SOV_huguo_lianmeng = {

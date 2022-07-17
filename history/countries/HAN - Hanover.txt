@@ -106,6 +106,19 @@ if = {
 
 set_research_slots = 2
 
+add_ideas = {
+	
+	AI_Presidential_Republic
+	AI_Multi_Party
+	AI_Semi_Independent_Media
+	AI_Trade_Unions_All_Allowed
+	AI_Qualification_Election
+	AI_Free_Market_Capitalism
+	AI_Twelve_Hour_Work
+	AI_Non_Welfare
+	AI_Public_Basic_Education
+}
+
 set_politics = {
 	ruling_party = social_liberal
 	last_election = "1888.6.15"

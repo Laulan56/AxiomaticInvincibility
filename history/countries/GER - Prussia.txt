@@ -114,19 +114,21 @@ set_politics = {
 set_popularities = {
 	social_liberal = 10
 	liberal_conservative = 4
-	social_democrat = 32
+	social_democrat = 30
 	moderate_socialist = 4
 	social_conservative = 6
-	vanguard_socialist = 16
+	vanguard_socialist = 14
 	marxist = 8
 	authoritarian_democrat = 14
 	despotist = 6
+	revolutionary_nationalist = 4
 }
 
 add_ideas = {
 	PRU_weiershi_fanrong
 	PRU_zhanbai_zhe
 	PRU_hunluan_de_zhengzhi
+	PRU_weima_xianfa
 	
 	AI_Presidential_Republic
 	AI_Multi_Party
@@ -134,7 +136,7 @@ add_ideas = {
 	AI_Trade_Unions_All_Allowed
 	AI_Qualification_Election
 	AI_Free_Market_Capitalism
-	AI_Twelve_Hour_Work
+	AI_Ten_Hour_Work
 	AI_Medium_Welfare
 	AI_Public_Basic_Education
 	
