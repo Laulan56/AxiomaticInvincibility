@@ -76,6 +76,19 @@ if = {
 
 set_research_slots = 2
 
+add_ideas = {
+	
+	AI_Autocratic_Monarchy
+	AI_Limited_Multiparty
+	AI_Media_Review
+	AI_Trade_Unions_Banned
+	AI_Elite_Election
+	AI_Free_Market_Capitalism
+	AI_Twelve_Hour_Work
+	AI_Non_Welfare
+	AI_Public_Basic_Education
+}
+
 set_politics = {
 	ruling_party = authoritarian_democrat
 	last_election = "1888.6.15"

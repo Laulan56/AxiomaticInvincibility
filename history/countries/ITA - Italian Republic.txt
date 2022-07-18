@@ -108,6 +108,23 @@ set_research_slots = 3
 
 add_ideas = {
 	FRA_french_sphere_of_influence
+	
+	AI_Congress_Republic
+	AI_Multi_Party
+	AI_Free_Media
+	AI_Trade_Unions_All_Allowed
+	AI_Qualification_Election
+	AI_Free_Market_Capitalism
+	AI_Twelve_Hour_Work
+	AI_Basic_Welfare
+	AI_Public_Basic_Education
+}
+
+create_country_leader = {
+	name = "Randolfo Pacciardi"
+	desc = "ITA_Randolfo_Pacciardi_Desc"
+	picture = "gfx/leaders/ITA/Portrait_ITA_Randolfo_Pacciardi.dds"
+	ideology = social_liberal_subtype
 }
 
 set_politics = {

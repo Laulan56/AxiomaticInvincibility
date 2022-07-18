@@ -925,7 +925,7 @@ ideas = {
 
             modifier = {
                 stability_factor = 0.03
-				industrial_capacity_factory = -0.05
+				industrial_capacity_factory = -0.1
 				production_factory_start_efficiency_factor = 0.1
             }
 			
@@ -950,8 +950,33 @@ ideas = {
 
             modifier = {
                 stability_factor = 0.015
-				industrial_capacity_factory = -0.025
+				industrial_capacity_factory = -0.05
 				production_factory_start_efficiency_factor = 0.05
+            }
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+		}
+		
+		AI_Ten_Hour_Work = {
+			
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Eight_Hour_Work
+
+            modifier = {
+                
+				
+				
             }
 			
 			allowed_to_remove = { 
@@ -974,7 +999,8 @@ ideas = {
 			picture = AI_Twelve_Hour_Work
 
             modifier = {
-
+				industrial_capacity_factory = 0.025
+				production_factory_start_efficiency_factor = -0.02
             }
 			
 			allowed_to_remove = { 
@@ -998,7 +1024,7 @@ ideas = {
 
             modifier = {
                 stability_factor = -0.015
-				industrial_capacity_factory = 0.025
+				industrial_capacity_factory = 0.05
 				production_factory_start_efficiency_factor = -0.04
             }
 			
@@ -1023,7 +1049,7 @@ ideas = {
 
             modifier = {
                 stability_factor = -0.03
-				industrial_capacity_factory = 0.05
+				industrial_capacity_factory = 0.125
 				production_factory_start_efficiency_factor = -0.08
             }
 			
@@ -1117,7 +1143,7 @@ ideas = {
             cancel_if_invalid = no
 		}
 
-		AI_Low_Welfare = {
+		AI_Non_Welfare = {
 			
 			cost = 0
 			removal_cost = -1

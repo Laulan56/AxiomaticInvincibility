@@ -107,7 +107,15 @@ if = {
 set_research_slots = 3
 
 add_ideas = {
-
+	AI_Council_Republic
+	AI_Limited_Multiparty
+	AI_Semi_Independent_Media
+	AI_Trade_Unions_All_Allowed
+	AI_Universal_suffrage
+	AI_State_Capitalism
+	AI_Ten_Hour_Work
+	AI_Medium_Welfare
+	AI_Subsidize_Higher_Education
 }
 
 set_politics = {
@@ -116,11 +124,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-
+create_country_leader = {
+	name = "Gramsci Antonio"
+	desc = "SRI_Gramsci_Antonio_Desc"
+	picture = "gfx/leaders/SRI/Portrait_SRI_Gramsci_Antonio.dds"
+	ideology = marxist_subtype
+}
 set_popularities = {
     vanguard_socialist = 24
-	marxist = 54
-	anarchist = 6
+	marxist = 50
+	anarchist = 10
 	moderate_socialist = 12
 	social_democrat = 4
 }

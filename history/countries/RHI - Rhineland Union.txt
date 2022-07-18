@@ -108,7 +108,18 @@ set_research_slots = 3
 
 add_ideas = {
 	RHI_laiyin_jingjitequ
+	RHI_laiyin_lishihui
 	FRA_faguo_shili_yingxiang
+	
+	AI_Civilan_Dictatorship
+	AI_Non_Parties
+	AI_Media_Review
+	AI_Trade_Unions_Non_Socialist
+	AI_Elite_Election
+	AI_Free_Market_Capitalism
+	AI_Fourteen_Hour_Work
+	AI_Non_Welfare
+	AI_Public_Basic_Education
 }
 
 set_politics = {

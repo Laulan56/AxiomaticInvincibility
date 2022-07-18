@@ -12,6 +12,7 @@ focus_tree = {
 		}
 	}
 	default = no
+	
 	focus = {
 		id = SPR_summer_of_1932
 		icon = GFX_goal_unknown

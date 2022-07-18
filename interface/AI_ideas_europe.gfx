@@ -15,7 +15,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_FRA_faguo_shili_yingxiang"
-		texturefile = "gfx/interface/ideas/FRA_faguo_shili_yingxiang.png"
+		texturefile = "gfx/interface/ideas/FRA_influence.png"
 	}
 	spriteType = {
 		name = "GFX_idea_FRA_da_xiaotiao"
@@ -34,6 +34,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_PRU_hunluan_de_zhengzhi"
 		texturefile = "gfx/interface/ideas/PRU_hunluan_de_zhengzhi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_PRU_weima_xianfa"
+		texturefile = "gfx/interface/ideas/PRU_weima_xianfa.png"
 	}
 	
 	### SOV ###
@@ -57,5 +61,57 @@ spriteTypes = {
 		name = "GFX_idea_SOV_geming_fayuandi"
 		texturefile = "gfx/interface/ideas/SOV_geming_fayuandi.png"
 	}
+	
+	### ENG ###
+	spriteType = {
+		name = "GFX_idea_ENG_yingguo_shili_yingxiang"
+		texturefile = "gfx/interface/ideas/ENG_influence.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_zhanhao_suiyue"
+		texturefile = "gfx/interface/ideas/ENG_zhanhao_suiyue.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_judade_zhiminkaizhi"
+		texturefile = "gfx/interface/ideas/ENG_judade_zhiminkaizhi.png"
+	}
+	spriteType = {
+		name = "GFX_idea_ENG_aierlan_dongdang"
+		texturefile = "gfx/interface/ideas/ENG_aierlan_dongdang.png"
+	}
+	
+	### SPR ###
+	spriteType = {
+		name = "GFX_idea_SPR_gongnongye_bagong"
+		texturefile = "gfx/interface/ideas/SPR_gongnongye_bagong.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_junshipanluan_weixie"
+		texturefile = "gfx/interface/ideas/SPR_junshipanluan_weixie.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_fenliede_guojia"
+		texturefile = "gfx/interface/ideas/SPR_fenliede_guojia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_SPR_lengmode_nongcun"
+		texturefile = "gfx/interface/ideas/SPR_lengmode_nongcun.png"
+	}
+	
+	###  States of the German ###
+	spriteType = {
+		name = "GFX_idea_RHI_laiyin_jingjitequ"
+		texturefile = "gfx/interface/ideas/RHI_laiyin_jingjitequ.png"
+	}
+	spriteType = {
+		name = "GFX_idea_RHI_laiyin_lishihui"
+		texturefile = "gfx/interface/ideas/RHI_laiyin_lishihui.png"
+	}
+	spriteType = {
+		name = "GFX_idea_HAM_deyizhi_mingzhu"
+		texturefile = "gfx/interface/ideas/HAM_deyizhi_mingzhu.png"
+	}
+	
+	
 }
 

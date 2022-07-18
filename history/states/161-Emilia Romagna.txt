@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = FRI
+		owner = SRI
 		victory_points = {
 			6606 3 
 		}
@@ -23,7 +23,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = FRI
+		add_core_of = SRI
 	}
 
 	provinces={
