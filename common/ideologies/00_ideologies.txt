@@ -1,6 +1,5 @@
-
-
 ideologies = {
+
 	vanguard_socialist = {
 		types = {
 			vanguard_socialist_subtype = {} #generic

@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    BAY_Kurt_Eisner = {
+		name = BAY_Kurt_Eisner
+		portraits={
+			civilian={
+				large="gfx/leaders/GER_00/Portrait_BAY_Kurt_Eisner.dds"
+			}
+		}
+		country_leader={
+			ideology = moderate_socialist_subtype
+			desc = BAY_Kurt_Eisner_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

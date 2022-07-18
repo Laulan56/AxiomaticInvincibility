@@ -66,17 +66,7 @@ set_popularities = {
 
 set_convoys = 40
 
-create_country_leader = {
-	name = "Christian X"
-	desc = "POLITICS_THORVALD_STAUNING_DESC"
-	picture = "gfx/leaders/DEN/Portrait_Denmark_Christian_X.dds"
-	expire = "1965.1.1"
-	ideology = social_conservative_group
-	traits = {
-		#
-	}
-}
-
+recruit_character = DEN_Christian_X
 
 create_corps_commander = {
 	name = "Wilhelm Wain Prior"

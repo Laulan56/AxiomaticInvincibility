@@ -92,10 +92,5 @@ set_popularities = {
 	social_liberal = 4
 }
 
-create_country_leader = {
-	name = "Kurt Eisner"
-	picture = "gfx/leaders/GER_00/Portrait_BAY_Kurt_Eisner.dds"
-	expire = "1965.1.1"
-	ideology = moderate_socialist_subtype
-}
+recruit_character = BAY_Kurt_Eisner
 

@@ -118,12 +118,7 @@ add_ideas = {
 	AI_Public_Basic_Education
 }
 
-create_country_leader = {
-	name = "Benito Mussolini"
-	desc = "FRI_Benito_Mussolini_Desc"
-	picture = "gfx/leaders/FRI/Portrait_FRI_Benito_Mussolini.dds"
-	ideology = revolutionary_nationalist_subtype
-}
+recruit_character = FRI_Benito_Mussolini
 
 set_politics = {
 	ruling_party = revolutionary_nationalist

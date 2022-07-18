@@ -1,0 +1,40 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    RHI_Rhineland_Council = {
+		name = RHI_Rhineland_Council
+		portraits={
+			civilian={
+				large="gfx/leaders/GER_00/Portrait_RHI_Rhineland_Council.dds"
+			}
+		}
+		country_leader={
+			ideology = social_liberal_subtype
+			desc = RHI_Rhineland_Council_leader_desc
+		}
+		country_leader={
+			ideology = social_democracy_subtype
+			desc = RHI_Rhineland_Council_leader_desc
+		}
+		country_leader={
+			ideology = liberal_conservative_subtype
+			desc = RHI_Rhineland_Council_leader_desc
+		}
+		country_leader={
+			ideology = authoritarian_democrat_subtype
+			desc = RHI_Rhineland_Council_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

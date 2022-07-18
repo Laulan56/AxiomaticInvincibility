@@ -120,12 +120,7 @@ add_ideas = {
 	AI_Public_Basic_Education
 }
 
-create_country_leader = {
-	name = "Randolfo Pacciardi"
-	desc = "ITA_Randolfo_Pacciardi_Desc"
-	picture = "gfx/leaders/ITA/Portrait_ITA_Randolfo_Pacciardi.dds"
-	ideology = social_liberal_subtype
-}
+recruit_character = ITA_Randolfo_Pacciardi
 
 set_politics = {
 	ruling_party = social_liberal

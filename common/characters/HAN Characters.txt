@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    HAN_Gustav_Noske = {
+		name = HAN_Gustav_Noske
+		portraits={
+			civilian={
+				large="gfx/leaders/GER_00/Portrait_HAN_Gustav_Noske.dds"
+			}
+		}
+		country_leader={
+			ideology = social_liberal_subtype
+			desc = HAN_Gustav_Noske_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

@@ -1,0 +1,101 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    HOL_Wilhelmina = {
+		name = HOL_Wilhelmina
+		gender = female
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Wilhelmina.dds"
+			}
+		}
+		country_leader={
+			ideology = liberal_conservative_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = social_liberal_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = social_conservative_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = social_democracy_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = authoritarian_democrat_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = despotist_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+		country_leader={
+			ideology = revolutionary_nationalist_subtype
+			desc = HOL_Wilhelmina_leader_desc
+		}
+	}
+	
+	HOL_Sneevliet = {
+		name = HOL_Sneevliet
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Sneevliet.dds"
+			}
+		}
+		country_leader={
+			ideology = marxist_subtype
+			desc = HOL_Sneevliet_leader_desc
+		}
+	
+	HOL_Harm_Kolthek = {
+		name = HOL_Harm_Kolthek
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Harm_Kolthek.dds"
+			}
+		}
+		country_leader={
+			ideology = anarchist_subtype
+			desc = HOL_Harm_Kolthek_leader_desc
+		}
+	
+	HOL_Willem_Albarda = {
+		name = HOL_Willem_Albarda
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_Willem_Albarda.dds"
+			}
+		}
+		country_leader={
+			ideology = moderate_socialist_subtype
+			desc = HOL_Willem_Albarda_leader_desc
+		}
+	
+	HOL_David_Wijnkoop = {
+		name = HOL_David_Wijnkoop
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_HOL_David_Wijnkoop.dds"
+			}
+		}
+		country_leader={
+			ideology = vanguard_socialist_subtype
+			desc = HOL_David_Wijnkoop_leader_desc
+		}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

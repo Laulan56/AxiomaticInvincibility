@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    BEL_Albert_Deveze = {
+		name = BEL_Albert_Deveze
+		portraits={
+			civilian={
+				large="gfx/leaders/BEL/Portrait_BEL_Albert_Deveze.dds"
+			}
+		}
+		country_leader={
+			ideology = social_liberal_subtype
+			desc = BEL_Albert_Deveze_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

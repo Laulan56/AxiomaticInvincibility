@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    FRI_Benito_Mussolini = {
+		name = FRI_Benito_Mussolini
+		portraits={
+			civilian={
+				large="gfx/leaders/FRI/Portrait_FRI_Benito_Mussolini.dds"
+			}
+		}
+		country_leader={
+			ideology = revolutionary_nationalist_subtype
+			desc = FRI_Benito_Mussolini_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

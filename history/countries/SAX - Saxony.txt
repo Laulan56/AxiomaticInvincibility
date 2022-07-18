@@ -104,10 +104,5 @@ set_popularities = {
 	despotist = 16
 }
 
-create_country_leader = {
-	name = "Georg von Sachsen"
-	picture = "gfx/leaders/GER_00/Portrait_SAX_Georg_von_Sachsen.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-}
+recruit_character = SAX_Georg_von_Sachsen
 

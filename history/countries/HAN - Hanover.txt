@@ -135,10 +135,5 @@ set_popularities = {
 	authoritarian_democrat = 10
 }
 
-create_country_leader = {
-	name = "Gustav Noske"
-	picture = "gfx/leaders/GER_00/Portrait_HAN_Gustav_Noske.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-}
+recruit_character = HAN_Gustav_Noske
 

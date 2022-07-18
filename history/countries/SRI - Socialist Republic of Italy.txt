@@ -124,12 +124,9 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = no
 }
-create_country_leader = {
-	name = "Gramsci Antonio"
-	desc = "SRI_Gramsci_Antonio_Desc"
-	picture = "gfx/leaders/SRI/Portrait_SRI_Gramsci_Antonio.dds"
-	ideology = marxist_subtype
-}
+
+recruit_character = SRI_Gramsci_Antonio
+
 set_popularities = {
     vanguard_socialist = 24
 	marxist = 50

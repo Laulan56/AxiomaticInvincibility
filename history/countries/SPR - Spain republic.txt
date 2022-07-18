@@ -75,12 +75,7 @@ set_politics = {
 
 set_research_slots = 3
 
-create_country_leader = {
-	name = "Manuel Azana"
-	desc = "SPR_Manuel_Azana_Desc"
-	picture = "gfx/leaders/SPR/Portrait_SPR_Manuel_Azana.dds"
-	ideology = social_liberal_subtype
-}
+recruit_character = SPR_Manuel_Azana
 
 set_technology = {
 	infantry_weapons = 1

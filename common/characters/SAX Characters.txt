@@ -1,0 +1,32 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    SAX_Georg_von_Sachsen = {
+		name = SAX_Georg_von_Sachsen
+		portraits={
+			civilian={
+				large="gfx/leaders/GER_00/Portrait_SAX_Georg_von_Sachsen.dds"
+			}
+		}
+		country_leader={
+			ideology = despotist_subtype
+			desc = SAX_Georg_von_Sachsen_leader_desc
+		}
+		country_leader={
+			ideology = authoritarian_democrat_subtype
+			desc = SAX_Georg_von_Sachsen_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

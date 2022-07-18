@@ -124,44 +124,4 @@ set_popularities = {
 	social_democrat = 18
 }
 
-create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWISS_FEDERAL_COUNCIL_DESC"
-	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.tga.tag"
-	expire = "1965.1.1"
-	ideology = social_conservative_group
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWISS_FEDERAL_COUNCIL_DESC"
-	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.tga.tag"
-	expire = "1965.1.1"
-	ideology = social_liberal_group
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWISS_FEDERAL_COUNCIL_DESC"
-	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.tga.tag"
-	expire = "1965.1.1"
-	ideology = market_liberal_group
-	traits = {
-		#
-	}
-}
-create_country_leader = {
-	name = "Swiss Federal Council"
-	desc = "POLITICS_SWISS_FEDERAL_COUNCIL_DESC"
-	picture = "gfx/leaders/SWI/Portrait_Switzerland_Federal_Council.tga.tag"
-	expire = "1965.1.1"
-	ideology = social_democrat_group
-	traits = {
-		#
-	}
-}
+recruit_character = SWI_Switzerland_Federal_Council

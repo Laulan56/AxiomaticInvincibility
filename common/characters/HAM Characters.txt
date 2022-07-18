@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    HAM_Carl_Petersen = {
+		name = HAM_Carl_Petersen
+		portraits={
+			civilian={
+				large="gfx/leaders/GER_00/Portrait_HAM_Carl_Petersen.dds"
+			}
+		}
+		country_leader={
+			ideology = social_democracy_subtype
+			desc = HAM_Carl_Petersen_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

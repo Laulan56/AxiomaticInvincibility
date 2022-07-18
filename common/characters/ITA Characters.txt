@@ -3,25 +3,18 @@ characters={
     #######################
 	### Country Leaders ###
 	#######################
-    PRU_Otto_Wels={
-		name=PRU_Otto_Wels
+    ITA_Randolfo_Pacciardi = {
+		name = ITA_Randolfo_Pacciardi
 		portraits={
 			civilian={
-				large="gfx/leaders/GER/Portrait_Otto_Wels.png"
+				large="gfx/leaders/ITA/Portrait_ITA_Randolfo_Pacciardi.dds"
 			}
 		}
 		country_leader={
-			ideology=social_democrat_subtype
-			expire="1964.1.1.11"
-			id=-1
+			ideology = social_liberal_subtype
+			desc = ITA_Randolfo_Pacciardi_leader_desc
 		}
 	}
-	
-	
-	################
-	### advisor  ###
-	################
-	
 	
 	################
 	### Generals ###

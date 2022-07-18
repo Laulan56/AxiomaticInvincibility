@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    DEN_Christian_X = {
+		name = DEN_Christian_X
+		portraits={
+			civilian={
+				large="gfx/leaders/DEN/Portrait_DEN_Christian_X.dds"
+			}
+		}
+		country_leader={
+			ideology = social_conservative_subtype
+			desc = DEN_Christian_X_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

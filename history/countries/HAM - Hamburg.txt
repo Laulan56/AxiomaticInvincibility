@@ -133,10 +133,5 @@ set_popularities = {
 	social_liberal = 25
 }
 
-create_country_leader = {
-	name = "Carl Petersen"
-	picture = "gfx/leaders/GER_00/Portrait_HAM_Carl_Petersen.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy_subtype
-}
+recruit_character = HAM_Carl_Petersen
 

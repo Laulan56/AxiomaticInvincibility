@@ -1,0 +1,28 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    ENG_George_V = {
+		name = ENG_George_V
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_ENG_George_V.dds"
+			}
+		}
+		country_leader={
+			ideology = authoritarian_democrat_subtype
+			desc = ENG_George_V_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

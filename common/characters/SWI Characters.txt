@@ -1,0 +1,40 @@
+characters={
+
+    #######################
+	### Country Leaders ###
+	#######################
+    SWI_Switzerland_Federal_Council = {
+		name = SWI_Switzerland_Federal_Council
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_SWI_Switzerland_Federal_Council.dds"
+			}
+		}
+		country_leader={
+			ideology = social_conservative_subtype
+			desc = SWI_Switzerland_Federal_Council_leader_desc
+		}
+		country_leader={
+			ideology = social_liberal_subtype
+			desc = SWI_Switzerland_Federal_Council_leader_desc
+		}
+		country_leader={
+			ideology = liberal_conservative_subtype
+			desc = SWI_Switzerland_Federal_Council_leader_desc
+		}
+		country_leader={
+			ideology = social_democracy_subtype
+			desc = SWI_Switzerland_Federal_Council_leader_desc
+		}
+	}
+	
+	################
+	### Generals ###
+	################
+	
+	
+	################
+	### Admirals ###
+	################
+	
+}

@@ -123,94 +123,17 @@ set_country_flag = SUR_CONQ
 	}
 }
 
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = market_liberal_group
-	female = yes
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_group
-	female = yes
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_group
-	female = yes
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	female = yes
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_democrat_subtype
-	female = yes
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "gfx/leaders/HOL/Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat_subtype
-	female = yes
-}
-
-create_country_leader = {
-	name = "Henk Sneevliet"
-	picture = "Portrait_HOL_Sneevliet.tga"
-	expire = "1965.1.1"
-	ideology = radical_socialist_subtype
-}
-
-create_country_leader = {
-	name = "Harm Kolthek"
-	picture = "Portrait_HOL_Kolthek.tga"
-	expire = "1965.1.1"
-	ideology = anarchic_socialism_subtype
-}
-
-create_country_leader = {
-	name = "David Wijnkoop"
-	picture = "Portrait_HOL_David_Wijnkoop.tga"
-	expire = "1965.1.1"
-	ideology = marxism_leninism_subtype
-}
-
-create_country_leader = {
-	name = "Wilhelmina"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "Portrait_Holland_Wilhelmina.tga"
-	expire = "1965.1.1"
-	ideology = national_populist_subtype
-}
+recruit_character = HOL_Wilhelmina
+recruit_character = HOL_Sneevliet
+recruit_character = HOL_Harm_Kolthek
+recruit_character = HOL_Willem_Albarda
+recruit_character = HOL_David_Wijnkoop
 
 ### Field Marshals ###
 ### Corps Commanders ###
 create_corps_commander = {
 	name = "Gerardus Johannes Berenschot"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Berenschot.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Berenschot.dds"
 	traits = {
 		career_officer
 	}
@@ -223,7 +146,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Petrus Wilhelmus Best"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Best.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Best.dds"
 	traits = {
 		infantry_officer
 	}
@@ -236,7 +159,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Murk Boerstra"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Boerstra.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Boerstra.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -247,7 +170,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Willem Hackstroh"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Hackstroh.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Hackstroh.dds"
 	traits = { }
 	skill = 1
 	attack_skill = 1
@@ -258,7 +181,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Jakob Harberts"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Harberts.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Harberts.dds"
 	traits = {
 		old_guard
 	}
@@ -271,7 +194,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Izaäk Reijnders"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Reynders.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Reynders.dds"
 	traits = {
 		trait_reckless
 	}
@@ -284,7 +207,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Hendrik Seyffardt"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Seyffardt.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Seyffardt.dds"
 	traits = {
 		old_guard
 		politically_connected
@@ -298,7 +221,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Gustave Statius-Muller"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Statius_Muller.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Statius_Muller.dds"
 	traits = {
 		trait_engineer
 	}
@@ -311,7 +234,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "H. van Voorst tot Voorst"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Voorst_tot_Voorst_H_.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Voorst_tot_Voorst_H_.dds"
 	traits = {
 		trait_engineer
 	}
@@ -324,7 +247,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "G. van Voorst tot Voorst"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Voorst_tot_Voorst_J_.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Voorst_tot_Voorst_J_.dds"
 	traits = {
 		trickster
 	}
@@ -337,7 +260,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Jan van Andel"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Andel.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_van_Andel.dds"
 	traits = {
 		fortress_buster
 	}
@@ -350,7 +273,7 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Henri Winkelman"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Winkelman.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Winkelman.dds"
 	traits = { }
 	skill = 3
 	attack_skill = 2
@@ -362,7 +285,7 @@ create_field_marshal = {
 ### Admirals ###
 create_navy_leader = {
 	name = "Jan van Dulm"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Jan_van_Dulm.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Jan_van_Dulm.dds"
 	traits = { seawolf }
 	skill = 2
 	attack_skill = 2
@@ -373,7 +296,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Maarten van Dulm"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Maarten_van_Dulm.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Maarten_van_Dulm.dds"
 	traits = {
 		spotter
 	}
@@ -386,7 +309,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Willem Jan Kruys"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Willem_Jan_Kruys.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Willem_Jan_Kruys.dds"
 	traits = {
 		spotter
 	}
@@ -399,7 +322,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Albertus Samuel Pinke"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Albertus_Samuel_Pinke.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Albertus_Samuel_Pinke.dds"
 	traits = {
 		blockade_runner
 	}
@@ -412,7 +335,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Alfred de Booy"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Alfred_de_Booy.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Alfred_de_Booy.dds"
 	traits = {
 		fly_swatter
 	}
@@ -426,7 +349,7 @@ create_navy_leader = {
 ### starting in DEI
 create_navy_leader = {
 	name = "Karel Doorman"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Doorman.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Doorman.dds"
 	traits = { superior_tactician }
 	skill = 3
 	attack_skill = 2
@@ -438,7 +361,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Conrad Helfrich"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Helfrich.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Helfrich.dds"
 	traits = { seawolf }
 	skill = 3
 	attack_skill = 2
@@ -450,7 +373,7 @@ create_navy_leader = {
 
 create_navy_leader = {
 	name = "Johannes Fürstner"
-	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Furstner_navy.tga"
+	portrait_path = "gfx/leaders/HOL/Portrait_HOL_Furstner_navy.dds"
 	traits = { ironside }
 	skill = 2
 	attack_skill = 1
