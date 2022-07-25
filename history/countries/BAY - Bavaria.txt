@@ -70,10 +70,15 @@ add_ideas = {
 	AI_Free_Media
 	AI_Trade_Unions_All_Allowed
 	AI_Universal_suffrage
+	AI_Minorities_Equality
+	AI_Allow_Women_Work
+	AI_Public_Meetings_Allowed
 	AI_Mixed_Market_Capitalism
 	AI_Ten_Hour_Work
 	AI_Medium_Welfare
+	AI_Medium_healthcare
 	AI_Subsidize_Higher_Education
+	AI_Abolish_Slavery
 }
 
 set_politics = {

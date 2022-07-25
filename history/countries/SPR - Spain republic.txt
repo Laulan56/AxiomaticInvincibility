@@ -48,10 +48,15 @@ add_ideas = {
 	AI_Free_Media
 	AI_Trade_Unions_All_Allowed
 	AI_Qualification_Election
+	AI_Neutralizing_Attitude
+	AI_Public_Meetings_Allowed
+	AI_Allow_Women_Work
 	AI_Free_Market_Capitalism
 	AI_Twelve_Hour_Work
 	AI_Basic_Welfare
 	AI_Public_Basic_Education
+	AI_Non_healthcare
+	AI_Abolish_Slavery
 }
 set_popularities = {
 	vanguard_socialist = 5

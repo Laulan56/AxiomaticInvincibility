@@ -129,8 +129,13 @@ add_ideas = {
 	AI_Limited_Multiparty
 	AI_Semi_Independent_Media
 	AI_Trade_Unions_Non_Socialist
+	AI_Neutralizing_Attitude
+	AI_Allow_Women_Work
+	AI_Public_Meetings_Controlled
 	AI_Qualification_Election
 	AI_Free_Market_Capitalism
+	AI_Basic_healthcare
+	AI_Abolish_Slavery
 	AI_Ten_Hour_Work
 	AI_Basic_Welfare
 	AI_Public_Basic_Education

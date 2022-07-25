@@ -1,0 +1,17 @@
+###########################
+# Generic Focus Tree
+###########################
+
+focus_tree = {
+	id = generic_focus
+
+	country = {
+		factor = 1
+	}
+
+	default = yes
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 1050 }
+}
+

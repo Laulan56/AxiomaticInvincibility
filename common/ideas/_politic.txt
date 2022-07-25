@@ -108,38 +108,17 @@ ideas = {
         law = yes
 		use_list_view = yes
 
-        AI_Council_Republic = {
+
+        AI_Personal_Dictatorship = {
             
 			cost = 0
 			removal_cost = -1
 			level = 7
 			
-			picture = AI_Council_Republic
+			picture = AI_Personal_Dictatorship
 
             modifier = {
-                stability_factor = 0.05
-            }
-
-			allowed_to_remove = { 
-				always = no 
-			}
-
-			available = { 
-				always = no
-			}
-            cancel_if_invalid = no
-        }  
-
-        AI_Congress_Republic = {
-            
-			cost = 0
-			removal_cost = -1
-			level = 7
-			
-			picture = AI_Congress_Republic
-
-            modifier = {
-                stability_factor = 0.03
+                stability_factor = -0.05
             }
 
 			allowed_to_remove = { 
@@ -152,63 +131,17 @@ ideas = {
 
             cancel_if_invalid = no
         }
-
-        AI_Presidential_Republic = {
+		
+        AI_Civilan_Dictatorship = {
             
 			cost = 0
 			removal_cost = -1
 			level = 7
 			
-			picture = AI_Presidential_Republic
+			picture = AI_Civilan_Dictatorship
 
             modifier = {
-                stability_factor = 0.02
-            }
-
-			allowed_to_remove = { 
-				always = no 
-			}
-
-			available = { 
-				always = no
-			}
-
-            cancel_if_invalid = no
-        }
-
-        AI_Constitutional_Monarchy = {
-            
-			cost = 0
-			removal_cost = -1
-			level = 7
-			
-			picture = AI_Constitutional_Monarchy
-
-            modifier = {
-                stability_factor = 0.01
-            }
-
-			allowed_to_remove = { 
-				always = no 
-			}
-
-			available = { 
-				always = no
-			}
-
-            cancel_if_invalid = no
-        }
-
-        AI_Autocratic_Monarchy = {
-            
-			cost = 0
-			removal_cost = -1
-			level = 7
-			
-			picture = AI_Autocratic_Monarchy
-
-            modifier = {
-                stability_factor = -0.01
+                stability_factor = -0.03
             }
 
 			allowed_to_remove = { 
@@ -245,16 +178,16 @@ ideas = {
             cancel_if_invalid = no
         }
 
-        AI_Civilan_Dictatorship = {
+        AI_Autocratic_Monarchy = {
             
 			cost = 0
 			removal_cost = -1
 			level = 7
 			
-			picture = AI_Civilan_Dictatorship
+			picture = AI_Autocratic_Monarchy
 
             modifier = {
-                stability_factor = -0.03
+                stability_factor = -0.01
             }
 
 			allowed_to_remove = { 
@@ -268,16 +201,16 @@ ideas = {
             cancel_if_invalid = no
         }
 
-        AI_Personal_Dictatorship = {
+        AI_Constitutional_Monarchy = {
             
 			cost = 0
 			removal_cost = -1
 			level = 7
 			
-			picture = AI_Personal_Dictatorship
+			picture = AI_Constitutional_Monarchy
 
             modifier = {
-                stability_factor = -0.05
+                stability_factor = 0.01
             }
 
 			allowed_to_remove = { 
@@ -290,6 +223,74 @@ ideas = {
 
             cancel_if_invalid = no
         }
+
+        AI_Presidential_Republic = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Presidential_Republic
+
+            modifier = {
+                stability_factor = 0.02
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Congress_Republic = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Congress_Republic
+
+            modifier = {
+                stability_factor = 0.03
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Council_Republic = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Council_Republic
+
+            modifier = {
+                stability_factor = 0.05
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+            cancel_if_invalid = no
+        }  
 
     }
 
@@ -587,6 +588,318 @@ ideas = {
             modifier = {
                 political_power_gain = -0.05
                 stability_factor = 0.03
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+    }
+	
+	minority_rights = {
+        law = yes
+		use_list_view = yes
+
+		AI_Persecute_Minority = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Persecute_Minority
+
+            modifier = {
+                non_core_manpower = -0.06
+                stability_factor = 0.05
+				political_power_gain = 0.10
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+		
+        AI_Discrimination_Minority = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Discrimination_Minority
+
+            modifier = {
+                non_core_manpower = -0.03
+                stability_factor = 0.025
+				political_power_gain = 0.05
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Neutralizing_Attitude = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Neutralizing_Attitude
+
+            modifier = {
+                
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Minorities_Equality = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Minorities_Equality
+
+            modifier = {
+                non_core_manpower = 0.03
+                stability_factor = -0.025
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Radical_Minorities_Equality = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Radical_Minorities_Equality
+
+            modifier = {
+                non_core_manpower = 0.06
+                stability_factor = -0.05
+				political_power_gain = -0.05
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+    }
+	
+	public_meetings = { 
+		law = yes
+		use_list_view = yes
+
+		AI_Public_Meetings_Banned = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = AI_Public_Meetings_Banned
+                  
+			modifier = {
+				stability_factor = 0.05
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		AI_Public_Meetings_Controlled = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = AI_Public_Meetings_Controlled
+                  
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.025
+			}
+			
+			cancel_if_invalid = no
+		}
+
+		AI_Public_Meetings_Allowed = {
+						
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+			
+            picture = AI_Public_Meetings_Allowed
+                  
+			modifier = {
+				political_power_gain = 0.10
+			}
+			
+			cancel_if_invalid = no
+		}
+
+	}
+	
+	women_rights = {
+        law = yes
+		use_list_view = yes
+
+        AI_Patriarchal_Society = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Patriarchal_Society
+
+            modifier = {
+                conscription_factor = 0.05
+                monthly_population = 0.10
+				stability_factor = 0.05
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+		
+		AI_Allow_Women_Work = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Allow_Women_Work
+
+            modifier = {
+                conscription_factor = 0.03
+                industrial_capacity_factory = 0.03
+				industrial_capacity_dockyard = 0.03
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Gender_Equality = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Gender_Equality
+
+            modifier = {
+				conscription_factor = 0.05
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				monthly_population = -0.05
+                stability_factor = -0.05
+            }
+
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no
+			}
+
+            cancel_if_invalid = no
+        }
+
+        AI_Radical_Gender_Equality = {
+            
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_Radical_Gender_Equality
+
+            modifier = {
+                conscription_factor = 0.10
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				monthly_population = -0.10
+                stability_factor = -0.10
             }
 
 			allowed_to_remove = { 

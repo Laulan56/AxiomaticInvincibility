@@ -1,0 +1,586 @@
+focus_tree = {
+	id = StartFocus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = SOV_zuihoude_baolei
+		icon = GFX_focus_ger_great_red_menace
+		cost = 5.00
+		x = 17
+		y = 0
+
+	}
+	focus = {
+		id = SOV_yu_nande_tanpan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = SOV_zhangduoren
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zuihoude_baolei
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SOV_daguanjia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zhangduoren
+		}
+		mutually_exclusive = {
+			focus = SOV_leninde_xuesheng
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = SOV_gonggu_tongyizhenxian
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_daguanjia
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = SOV_gaishan_zhengzhi_qifen
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_daguanjia
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = SOV_zhiliao_youzhibing
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_gaishan_zhengzhi_qifen
+		}
+		prerequisite = {
+			focus = SOV_gonggu_tongyizhenxian
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = SOV_daji_yuanlaoshili
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_daguanjia
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = SOV_yinjin_qingnian_ganbu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_gaishan_zhengzhi_qifen
+		}
+		prerequisite = {
+			focus = SOV_daji_yuanlaoshili
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = SOV_xietiao_gefang_zuzhi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zhiliao_youzhibing
+		}
+		prerequisite = {
+			focus = SOV_yinjin_qingnian_ganbu
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = SOV_leninde_xuesheng
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zhangduoren
+		}
+		mutually_exclusive = {
+			focus = SOV_daguanjia
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = SOV_hebing_zhengdang
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_leninde_xuesheng
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = SOV_queli_bu_diwei
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_leninde_xuesheng
+		}
+		x = 10
+		y = 3
+
+	}
+	focus = {
+		id = SOV_kaifang_paibie_huodong
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_hebing_zhengdang
+		}
+		prerequisite = {
+			focus = SOV_queli_bu_diwei
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = SOV_qiangdiao_dangnei_minzhu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_hebing_zhengdang
+		}
+		prerequisite = {
+			focus = SOV_queli_bu_diwei
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = SOV_guanche_minzhujizhongzhi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_hebing_zhengdang
+		}
+		prerequisite = {
+			focus = SOV_queli_bu_diwei
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = SOV_tongyi_liliang
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_qiangdiao_dangnei_minzhu
+		}
+		prerequisite = {
+			focus = SOV_kaifang_paibie_huodong
+		}
+		prerequisite = {
+			focus = SOV_guanche_minzhujizhongzhi
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = SOV_quanmian_buhua
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_tongyi_liliang
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = SOV_14th_years
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zuihoude_baolei
+		}
+		x = 17
+		y = 1
+
+	}
+	focus = {
+		id = SOV_xunfu_fuerjia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_14th_years
+		}
+		x = 14
+		y = 2
+
+	}
+	focus = {
+		id = SOV_tiaozheng_zhouzhuanshui
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_xunfu_fuerjia
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = SOV_gongren_xinju
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_xunfu_fuerjia
+		}
+		x = 15
+		y = 3
+
+	}
+	focus = {
+		id = SOV_huangjin_huan_huangjin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_tiaozheng_zhouzhuanshui
+		}
+		prerequisite = {
+			focus = SOV_gongren_xinju
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = SOV_jiushi_pengyou
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_14th_years
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = SOV_youyi_tianchangdijiu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_jiushi_pengyou
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = SOV_martov_xiehou
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_jiushi_pengyou
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = SOV_xinmiankong
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_youyi_tianchangdijiu
+		}
+		prerequisite = {
+			focus = SOV_martov_xiehou
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = SOV_bidegele_xinshenghuo
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_huangjin_huan_huangjin
+		}
+		prerequisite = {
+			focus = SOV_xinmiankong
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = SOV_qiangdi_huansi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zuihoude_baolei
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = SOV_mingque_geming_dixian
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_qiangdi_huansi
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = SOV_baifang_munihei
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = SOV_kuanshu_wenhepai
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = SOV_qiangdiao_gongshi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = SOV_tongzhijian_youyi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_baifang_munihei
+		}
+		prerequisite = {
+			focus = SOV_kuanshu_wenhepai
+		}
+		prerequisite = {
+			focus = SOV_qiangdiao_gongshi
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = SOV_munihei_xieding
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_tongzhijian_youyi
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = SOV_changshuyikouqi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_munihei_xieding
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = SOV_hongse_xianshizhengzhi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_xietiao_gefang_zuzhi
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = SOV_guojizhuyi_yuanze
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_qiangdi_huansi
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = SOV_jihuazhiwai
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_bidegele_xinshenghuo
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = SOV_jinjihuiyi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_jihuazhiwai
+		}
+		x = 17
+		y = 7
+
+	}
+	focus = {
+		id = SOV_sanjutou
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_jinjihuiyi
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = SOV_1905_child
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_sanjutou
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = SOV_fenmianzhidi_baomu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_sanjutou
+		}
+		x = 17
+		y = 9
+
+	}
+	focus = {
+		id = SOV_not_peter_but_lenin
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_sanjutou
+		}
+		x = 19
+		y = 9
+
+	}
+	focus = {
+		id = SOV_liewenjiansheng
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_1905_child
+		}
+		prerequisite = {
+			focus = SOV_fenmianzhidi_baomu
+		}
+		prerequisite = {
+			focus = SOV_not_peter_but_lenin
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = SOV_choubei_17da
+		icon = GFX_goal_unknown
+		cost = 5.00
+		visible = {
+			has_country_flag = SOV_swedlf_dead
+		}
+		prerequisite = {
+			focus = SOV_liewenjiansheng
+		}
+		x = 17
+		y = 11
+
+	}
+}

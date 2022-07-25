@@ -111,6 +111,9 @@ add_ideas = {
 	AI_One_party_system
 	AI_State_Owned_Media
 	AI_Trade_Unions_State_Controlled
+	AI_Allow_Women_Work
+	AI_Public_Meetings_Controlled
+	AI_Discrimination_Minority
 	AI_Elite_Election
 	AI_Corporatism
 	AI_Ten_Hour_Work

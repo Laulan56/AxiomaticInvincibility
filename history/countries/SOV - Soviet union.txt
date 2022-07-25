@@ -128,8 +128,13 @@ add_ideas = {
 	AI_Limited_Multiparty
 	AI_State_Owned_Media
 	AI_Trade_Unions_State_Controlled
+	AI_Gender_Equality
+	AI_Public_Meetings_Controlled
+	AI_Minorities_Equality
 	AI_Universal_suffrage
 	AI_State_Capitalism
+	AI_Medium_healthcare
+	AI_Abolish_Slavery
 	AI_Eight_Hour_Work
 	AI_Medium_Welfare
 	AI_Subsidize_Higher_Education
@@ -141,6 +146,29 @@ add_ideas = {
 }
 
 create_faction = Comintern
+
+### Initial Complete Focuses ###
+complete_national_focus = SOV_zuihoude_baolei
+complete_national_focus = SOV_zhangduoren
+complete_national_focus = SOV_daguanjia
+complete_national_focus = SOV_gonggu_tongyizhenxian
+complete_national_focus = SOV_gaishan_zhengzhi_qifen
+complete_national_focus = SOV_zhiliao_youzhibing
+complete_national_focus = SOV_daji_yuanlaoshili
+complete_national_focus = SOV_yinjin_qingnian_ganbu
+complete_national_focus = SOV_xietiao_gefang_zuzhi
+complete_national_focus = SOV_hongse_xianshizhengzhi
+complete_national_focus = SOV_qiangdi_huansi
+complete_national_focus = SOV_mingque_geming_dixian
+complete_national_focus = SOV_guojizhuyi_yuanze
+complete_national_focus = SOV_yu_nande_tanpan
+complete_national_focus = SOV_baifang_munihei
+complete_national_focus = SOV_kuanshu_wenhepai
+complete_national_focus = SOV_qiangdiao_gongshi
+complete_national_focus = SOV_tongzhijian_youyi
+complete_national_focus = SOV_munihei_xieding
+complete_national_focus = SOV_changshuyikouqi
+complete_national_focus = SOV_14th_years
 
 ### Country Leaders ###
 recruit_character = SOV_Lev_Kamenev

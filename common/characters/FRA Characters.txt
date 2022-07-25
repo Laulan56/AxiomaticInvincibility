@@ -3,19 +3,7 @@ characters={
     #######################
 	### Country Leaders ###
 	#######################
-    FRA_Edouard_Herriot={
-		name = FRA_Edouard_Herriot
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/Portrait_FRA_Edouard_Herriot.dds"
-			}
-		}
-		country_leader={
-			ideology = social_liberal_subtype
-			desc = FRA_Edouard_Herriot_leader_desc
-		}
-	}
-	FRA_Edouard_Daladier_1933 = {
+	FRA_Edouard_Daladier = {
 		name = FRA_Edouard_Daladier
 		portraits={
 			civilian={

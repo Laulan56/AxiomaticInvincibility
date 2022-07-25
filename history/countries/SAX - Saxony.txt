@@ -82,10 +82,15 @@ add_ideas = {
 	AI_Limited_Multiparty
 	AI_Media_Review
 	AI_Trade_Unions_Banned
+	AI_Neutralizing_Attitude
+	AI_Public_Meetings_Controlled
+	AI_Patriarchal_Society
 	AI_Elite_Election
 	AI_Free_Market_Capitalism
 	AI_Twelve_Hour_Work
 	AI_Non_Welfare
+	AI_Non_healthcare
+	AI_Abolish_Slavery
 	AI_Public_Basic_Education
 }
 

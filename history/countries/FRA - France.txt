@@ -129,9 +129,14 @@ add_ideas = {
 	AI_Congress_Republic
 	AI_Multi_Party
 	AI_Trade_Unions_All_Allowed
+	AI_Public_Meetings_Allowed
+	AI_Allow_Women_Work
+	AI_Neutralizing_Attitude
 	AI_Qualification_Election
 	AI_Public_Basic_Education
 	AI_Basic_Welfare
+	AI_Basic_healthcare
+	AI_Abolish_Slavery
 	AI_Ten_Hour_Work
 	AI_Free_Market_Capitalism
 	
@@ -152,7 +157,7 @@ recruit_character = FRA_Benoit_Frachon
 recruit_character = FRA_Daniel_Guerin
 recruit_character = FRA_Paul_Faure
 recruit_character = FRA_Leon_Blum
-recruit_character = FRA_Edouard_Herriot
+recruit_character = FRA_Edouard_Daladier
 recruit_character = FRA_Jean_Laurent
 recruit_character = FRA_Louis_Marin
 recruit_character = FRA_Jean_Laurent

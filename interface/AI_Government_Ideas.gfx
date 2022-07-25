@@ -133,7 +133,70 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Universal_suffrage.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_AI_disarmed_nation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_disarmed_nation.dds"
+	}
 	
+	spriteType = {
+		name = "GFX_idea_AI_volunteer_only"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_volunteer_only.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_limited_conscription"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_limited_conscription.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_extensive_conscription"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_extensive_conscription.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_service_by_requirement"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_service_by_requirement.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_all_adults_serve"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_all_adults_serve.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_scraping_the_barrel"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_scraping_the_barrel.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Free_Market_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Free_Market_Capitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Mixed_Market_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Mixed_Market_Capitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_State_Capitalism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_State_Capitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Corporatism"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Corporatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Centrally_Planned_Economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Centrally_Planned_Economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Democratic_Planned_Economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Democratic_Planned_Economy.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_AI_Six_Hour_Work"
@@ -203,6 +266,61 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_AI_Non_Public_Education"
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Non_Public_Education.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_isolation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_isolation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_civilian_economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_civilian_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_low_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_low_economic_mobilisation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_partial_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_partial_economic_mobilisation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_war_economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_war_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_tot_economic_mobilisation"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_tot_economic_mobilisation.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_free_trade"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_free_trade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_export_focus"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_export_focus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_limited_exports"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_limited_exports.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_closed_economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_closed_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_civilian_economy"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_civilian_economy.dds"
 	}
 	
 
