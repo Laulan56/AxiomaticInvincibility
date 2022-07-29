@@ -110,10 +110,10 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	social_liberal = 50
+	social_liberal = 40
 	liberal_conservative = 7
-	social_democrat = 19
-	moderate_socialist = 8
+	social_democrat = 22
+	moderate_socialist = 15
 	social_conservative = 4
 	vanguard_socialist = 6
 	marxist = 5
@@ -140,10 +140,10 @@ add_ideas = {
 	AI_Ten_Hour_Work
 	AI_Free_Market_Capitalism
 	
-	FRA_AI_Camille_Chautemps_HOG
-	FRA_AI_Aristide_Briand_FM
-	FRA_AI_Rene_Renoult_IM
-	FRA_AI_Louis_Germain_Martin_EM
+	FRA_AI_Eugene_Penancier_HOG
+	FRA_AI_Joseph_Paul_Boncour_FM
+	FRA_AI_Georges_Bonnet_EM
+	FRA_AI_Camille_Chautemps_IM
 }
 
 create_faction = ParisConvention

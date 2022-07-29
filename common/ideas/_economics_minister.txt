@@ -4,7 +4,7 @@ ideas = {
 		law = yes
 	
 		### France ###
-		FRA_AI_Louis_Germain_Martin_EM = { 
+		FRA_AI_Georges_Bonnet_EM = { 
 					
 			removal_cost = -1
 			level = 7
@@ -23,7 +23,57 @@ ideas = {
 
 			traits = {
 				AI_sl_trait
-				AI_industrialiser
+				AI_austere_finance_advocate
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		FRA_AI_Henry_Cheron_EM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_agricultural_economist
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		FRA_AI_Vincent_Auriol_EM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_ms_trait
+				AI_economic_reformer
 			}
 			
 			cancel_if_invalid = no

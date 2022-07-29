@@ -81,17 +81,17 @@ characters={
 			desc = FRA_Paul_Faure_leader_desc
 		}
 	}
-	FRA_Leon_Blum = {
-		name = FRA_Leon_Blum
+	FRA_Joseph_Paul_Boncour = {
+		name = FRA_Joseph_Paul_Boncour
 		portraits={
 			civilian={
-				large="gfx/leaders/FRA/Portrait_FRA_Leon_Blum.dds"
+				large="gfx/leaders/FRA/Portrait_FRA_Joseph_Paul_Boncour.dds"
 			}
 		}
 		country_leader={
-			ideology = social_democrat_subtype
+			ideology = social_democracy_subtype
 			 
-			desc = FRA_Leon_Blum_leader_desc
+			desc = FRA_Joseph_Paul_Boncour_leader_desc
 		}
 	}
 	FRA_Pierre_Flandin = {

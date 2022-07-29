@@ -47,7 +47,7 @@
  revolutionary_nationalist_subtype_desc:0"人们不得不选择生活在民族与国家中。所以，他们也不得不担负起这些群体的责任，并共通悲喜、荣辱、进退，乃至生死。\n正如其名，“革命性民族主义”意味着一种以民族与国家为核心进行社会组织的极端状态：当全社会沦落到难以挽回的危机时，恐惧失去权益的既得利益者，害怕在动荡前一输再输的一批公民便会将主权顺势交给“民族复兴超人”，以在不可挽回的日子到来前守住自己的“正常生活”——相较暴民政治而言，至少强人政治还处于常识范畴内。\n尽管“超人”们会因所处地域环境，文化背景不同而采取不同的举措，但革命民族主义的基本路线仍坚定不移——在统制经济的让利举措下，遭遇打击的只有“本族败类”与“外族异种”；社会各界将抛弃选举与议会，而是团结在大大小小的法团内，与行政官僚们共商国是，心心相印；秩序、传统与科学的联盟也将从胜利走向胜利，只要不把维持庞大政府、监狱与警队所需的开支以及包括“调解不公”在内的诸多埋怨作为问题考量在内。那么，民族复兴的愿景自将会步步实现。毕竟，最危险的关头已经度过。眼前的小小挫折，怎么能被称之为是“苦难”呢？"
  
  
- vanguard_socialist_drift: "先锋社会主义主义支持度每日变化"
+ vanguard_socialist_drift: "先锋社会主义支持度每日变化"
  marxist_drift: "革命马克思主义支持度每日变化"
  anarchist_drift: "无治主义支持度每日变化"
  moderate_socialist_drift: "温和社会主义支持度每日变化"
@@ -58,3 +58,15 @@
  authoritarian_democrat_drift: "威权民主主义支持度每日变化"
  despotist_drift: "专制主义支持度每日变化"
  revolutionary_nationalist_drift: "革命民族主义支持度每日变化"
+ 
+ vanguard_socialist_acceptance: "先锋社会主义外交的接纳度"
+ marxist_acceptance: "革命马克思主义外交的接纳度"
+ anarchist_acceptance: "无治主义外交的接纳度"
+ moderate_socialist_acceptance: "温和社会主义外交的接纳度"
+ social_democrat_acceptance: "社会民主主义外交的接纳度"
+ social_liberal_acceptance: "社会自由主义外交的接纳度"
+ liberal_conservative_acceptance: "自由保守主义外交的接纳度"
+ social_conservative_acceptance: "社会保守主义外交的接纳度"
+ authoritarian_democrat_acceptance: "威权民主主义外交的接纳度"
+ despotist_acceptance: "专制主义外交的接纳度"
+ revolutionary_nationalist_acceptance: "革命民族主义外交的接纳度"

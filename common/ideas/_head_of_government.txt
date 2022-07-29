@@ -4,7 +4,7 @@ ideas = {
 		law = yes
 		
 		### France ###
-		FRA_AI_Camille_Chautemps_HOG = { 
+		FRA_AI_Eugene_Penancier_HOG = { 
 					
 			removal_cost = -1
 			level = 7
@@ -22,12 +22,63 @@ ideas = {
 			}
 
 			traits = {
-				AI_sl_trait
-				AI_compassionate_gentleman
+				AI_sd_trait
+				AI_pragmatic_statesman
 			}
 			
 			cancel_if_invalid = no
 		}
+		
+		FRA_AI_Eugene_Frot_HOG = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_political_protege
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		FRA_AI_Joseph_Paul_Boncour_HOG = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_democratic_reformer
+			}
+			
+			cancel_if_invalid = no
+		}
+		
 		
 		###Prussia###
 		GER_AI_Philipp_Scheidemann_HOG = { 

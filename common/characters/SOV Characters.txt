@@ -29,16 +29,16 @@ characters={
 		}
 	}
 	
-	SOV_Nikolai_Bukharin = {
-		name = SOV_Nikolai_Bukharin
+	SOV_Alexei_Rykov = {
+		name = SOV_Alexei_Rykov
 		portraits={
 			civilian={
-				large="gfx/leaders/SOV/Portrait_SOV_Nikolai_Bukharin.dds"
+				large="gfx/leaders/SOV/Portrait_SOV_Alexei_Rykov.dds"
 			}
 		}
 		country_leader={
 			ideology = moderate_socialist_subtype
-			desc = SOV_Nikolai_Bukharin_leader_desc
+			desc = SOV_Alexei_Rykov_leader_desc
 		}
 	}
 	

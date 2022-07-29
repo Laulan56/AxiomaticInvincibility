@@ -4,7 +4,32 @@ ideas = {
 		law = yes
 	
 	    ### France ###
-		FRA_AI_Aristide_Briand_FM = { 
+		FRA_AI_Joseph_Paul_Boncour_FM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_sd_trait
+				AI_venerable_diplomat
+			}
+			
+			cancel_if_invalid = no
+		}
+		
+		FRA_AI_Edouard_Daladier_FM = { 
 					
 			removal_cost = -1
 			level = 7
@@ -23,12 +48,11 @@ ideas = {
 
 			traits = {
 				AI_sl_trait
-				AI_venerable_diplomat
+				AI_great_compromiser
 			}
 			
 			cancel_if_invalid = no
 		}
-		
 		
 		###Prussia###
 		GER_AI_Hermann_Muller_FM = { 

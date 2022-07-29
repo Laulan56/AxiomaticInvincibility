@@ -469,93 +469,72 @@ focus_tree = {
 		id = SOV_jihuazhiwai
 		icon = GFX_goal_unknown
 		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
 		prerequisite = {
 			focus = SOV_bidegele_xinshenghuo
-		}
-		x = 17
-		y = 6
-
-	}
-	focus = {
-		id = SOV_jinjihuiyi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
-		prerequisite = {
-			focus = SOV_jihuazhiwai
-		}
-		x = 17
-		y = 7
-
-	}
-	focus = {
-		id = SOV_sanjutou
-		icon = GFX_goal_unknown
-		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
-		prerequisite = {
-			focus = SOV_jinjihuiyi
 		}
 		x = 17
 		y = 8
 
 	}
 	focus = {
-		id = SOV_1905_child
+		id = SOV_jinjihuiyi
 		icon = GFX_goal_unknown
 		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
 		prerequisite = {
-			focus = SOV_sanjutou
-		}
-		x = 15
-		y = 9
-
-	}
-	focus = {
-		id = SOV_fenmianzhidi_baomu
-		icon = GFX_goal_unknown
-		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
-		prerequisite = {
-			focus = SOV_sanjutou
+			focus = SOV_jihuazhiwai
 		}
 		x = 17
 		y = 9
 
 	}
 	focus = {
+		id = SOV_sanjutou
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_jinjihuiyi
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = SOV_1905_child
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_sanjutou
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = SOV_fenmianzhidi_baomu
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_sanjutou
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
 		id = SOV_not_peter_but_lenin
 		icon = GFX_goal_unknown
 		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
 		prerequisite = {
 			focus = SOV_sanjutou
 		}
 		x = 19
-		y = 9
+		y = 13
 
 	}
 	focus = {
 		id = SOV_liewenjiansheng
 		icon = GFX_goal_unknown
 		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
 		prerequisite = {
 			focus = SOV_1905_child
 		}
@@ -566,21 +545,18 @@ focus_tree = {
 			focus = SOV_not_peter_but_lenin
 		}
 		x = 17
-		y = 10
+		y = 14
 
 	}
 	focus = {
 		id = SOV_choubei_17da
 		icon = GFX_goal_unknown
 		cost = 5.00
-		visible = {
-			has_country_flag = SOV_swedlf_dead
-		}
 		prerequisite = {
 			focus = SOV_liewenjiansheng
 		}
 		x = 17
-		y = 11
+		y = 15
 
 	}
 }

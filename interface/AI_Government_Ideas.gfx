@@ -134,6 +134,21 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_idea_AI_Public_Meetings_Banned"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Public_Meetings_Banned.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Public_Meetings_Controlled"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Public_Meetings_Controlled.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_AI_Public_Meetings_Allowed"
+		texturefile = "gfx/interface/ideas/Government_Ideas/AI_Public_Meetings_Allowed.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_AI_disarmed_nation"
 		texturefile = "gfx/interface/ideas/Government_Ideas/AI_disarmed_nation.dds"
 	}
@@ -327,8 +342,18 @@ spriteTypes = {
 	### MINISTERS - HEAD OF GOVERNMENT ###
 
 	spriteType = {
-		name = "GFX_idea_FRA_AI_Camille_Chautemps_HOG"
-		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Camille_Chautemps_HOG.dds"
+		name = "GFX_idea_FRA_AI_Eugene_Penancier_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Eugene_Penancier_HOG.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Eugene_Frot_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Eugene_Frot_HOG.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Joseph_Paul_Boncour_HOG"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Head_of_Government/France/FRA_AI_Joseph_Paul_Boncour_HOG.dds"
 	}
 	
 	spriteType = {
@@ -344,8 +369,18 @@ spriteTypes = {
 	### MINISTERS - ECONOMY MINISTERS ###
 
 	spriteType = {
-		name = "GFX_idea_FRA_AI_Louis_Germain_Martin_EM"
-		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Louis_Germain_Martin_EM.dds"
+		name = "GFX_idea_FRA_AI_Georges_Bonnet_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Georges_Bonnet_EM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Henry_Cheron_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Henry_Cheron_EM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Vincent_Auriol_EM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Economy_Minister/France/FRA_AI_Vincent_Auriol_EM.dds"
 	}
 	
 	spriteType = {
@@ -361,8 +396,13 @@ spriteTypes = {
 	### MINISTERS - FOREIGN MINISTERS ###
 
 	spriteType = {
-		name = "GFX_idea_FRA_AI_Aristide_Briand_FM"
-		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/France/FRA_AI_Aristide_Briand_FM.dds"
+		name = "GFX_idea_FRA_AI_Joseph_Paul_Boncour_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/France/FRA_AI_Joseph_Paul_Boncour_FM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Edouard_Daladier_FM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Foreign_Minister/France/FRA_AI_Edouard_Daladier_FM.dds"
 	}
 	
 	spriteType = {
@@ -378,8 +418,13 @@ spriteTypes = {
 	### MINISTERS - INTERNAL MINISTERS ###
 
 	spriteType = {
-		name = "GFX_idea_FRA_AI_Rene_Renoult_IM"
-		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Rene_Renoult_IM.dds"
+		name = "GFX_idea_FRA_AI_Camille_Chautemps_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Camille_Chautemps_IM.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FRA_AI_Marx_Dormoy_IM"
+		texturefile = "gfx/interface/ideas/Government_Ideas/Internal_Minister/France/FRA_AI_Marx_Dormoy_IM.dds"
 	}
 	
 	spriteType = {

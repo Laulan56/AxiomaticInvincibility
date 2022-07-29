@@ -23,7 +23,6 @@
  HAN_despotist_party:0 "汉诺威王室"
  HAN_revolutionary_nationalist_party:0 "德国工人党"
  
- 
  HAM_vanguard_socialist_party:0 "德国共产党"
  HAM_marxist_party:0 "德国共产党"
  HAM_anarchist_party:0 "德国自由工人联盟"
@@ -69,3 +68,10 @@
  RHI_laiyin_jingjitequ_desc:0 "为了和英国在汉堡设立的经济特区抗衡，法国也在莱茵河沿岸设立了同样的特区。外国投资给我们带来了源源不断的经济红利，但是也让莱茵兰地区的经济完全的受到法国控制。"
  RHI_laiyin_lishihui:0 "莱茵兰托管理事会"
  RHI_laiyin_lishihui_desc:0 "莱茵托管理事会建立于1924年，在全德经济崩溃和大规模反协约叛乱后，协约国在莱茵兰建立的占领区政府随后便改组成立由英法美和莱茵兰组成的理事会。铁幕降临到欧洲后，英国代表团便离开了理事会，随后美国陷入孤立主义不再干涉欧洲事务，莱茵兰理事会实际上已经成为法国的傀儡。1930年之后，莱茵兰托管理事会实际上已经覆盖到莱茵兰联盟从政治、经济到军事等多方面，经济繁荣使得反法情绪逐渐减少。在未来，莱茵兰托管理事会大概仍会是莱茵兰地区的主导秩序，§R也许吧……"
+ 
+ BAY_Kurt_Eisner: "库尔特·艾斯纳"
+ HAM_Carl_Petersen: "卡尔·彼得森"
+ HAN_Gustav_Noske: "古斯塔夫·诺斯克"
+ RHI_Rhineland_Council: "莱茵兰理事会"
+ SAX_Georg_von_Sachsen: "格奥尔格·冯·萨克森"
+ 

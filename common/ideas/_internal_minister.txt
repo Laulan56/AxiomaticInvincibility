@@ -4,7 +4,7 @@ ideas = {
 		law = yes
 	
 		### France ###
-		FRA_AI_Rene_Renoult_IM = { 
+		FRA_AI_Camille_Chautemps_IM = { 
 					
 			removal_cost = -1
 			level = 7
@@ -22,13 +22,37 @@ ideas = {
 			}
 
 			traits = {
-				AI_sl_trait
+				AI_sd_trait
 				AI_brilliant_lawyer
 			}
 			
 			cancel_if_invalid = no
 		}
 		
+		FRA_AI_Marx_Dormoy_IM = { 
+					
+			removal_cost = -1
+			level = 7
+
+			visible = {
+				original_tag = FRA
+			}
+			
+			allowed_to_remove = { 
+				always = no 
+			}
+
+			available = { 
+				always = no 
+			}
+
+			traits = {
+				AI_ms_trait
+				AI_compassionate_gentleman
+			}
+			
+			cancel_if_invalid = no
+		}
 		
 		###Prussia###
 		GER_AI_Otto_Braun_IM = { 

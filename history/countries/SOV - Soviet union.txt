@@ -112,9 +112,10 @@ set_politics = {
 set_popularities = {
 	social_democrat = 10
 	moderate_socialist = 20
-	vanguard_socialist = 35
-	marxist = 27
+	vanguard_socialist = 32
+	marxist = 25
 	revolutionary_nationalist = 8
+	authoritarian_democrat = 5
 }
 
 add_ideas = {
@@ -173,7 +174,7 @@ complete_national_focus = SOV_14th_years
 ### Country Leaders ###
 recruit_character = SOV_Lev_Kamenev
 recruit_character = SOV_Lev_Trotsky
-recruit_character = SOV_Nikolai_Bukharin
+recruit_character = SOV_Alexei_Rykov
 recruit_character = SOV_Irakli_Tsereteli
 
 ### Field Marshals ###
