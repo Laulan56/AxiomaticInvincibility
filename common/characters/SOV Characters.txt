@@ -12,7 +12,7 @@ characters={
 		}
 		country_leader={
 			ideology = vanguard_socialist_subtype
-			desc = SOV__leader_desc
+			desc = SOV_Lev_Kamenev_leader_desc
 		}
 	}
 	

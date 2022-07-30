@@ -1,0 +1,615 @@
+ideas = {
+	
+	poverty_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_very_low_poverty = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_very_low_poverty
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                political_power_gain = 0.10
+				stability_factor = 0.05
+				conscription_factor = -0.05
+            }
+		
+		}
+		
+		AI_remarkable_poverty = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_remarkable_poverty
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                political_power_gain = -0.05
+				stability_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.10
+            }
+		
+		}
+		
+		AI_extensive_poverty = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_extensive_poverty
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+				conscription_factor = 0.05
+                political_power_gain = -0.10
+				stability_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+            }
+		
+		}
+		
+		AI_general_poverty = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_general_poverty
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                conscription_factor = 0.10
+                political_power_gain = -0.15
+				stability_factor = -0.20
+				production_factory_efficiency_gain_factor = -0.20
+            }
+		
+		}
+		
+		AI_serious_poverty = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_serious_poverty
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                conscription_factor = 0.20
+                political_power_gain = -0.20
+				stability_factor = -0.25
+				production_factory_efficiency_gain_factor = -0.25
+            }
+		
+		}
+	
+	}
+	
+	illiteracy_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_no_illiteracy = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_no_illiteracy
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = 0.10
+				stability_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.08
+				consumer_goods_factor = 0.03
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+            }
+		
+		}
+		
+		AI_very_low_illiteracy = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_very_low_illiteracy
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = 0.10
+				stability_factor = 0.025
+            }
+		
+		}
+		
+		AI_remarkable_illiteracy = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_remarkable_illiteracy
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+            }
+		
+		}
+		
+		AI_very_high_illiteracy = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_very_high_illiteracy
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.12
+            }
+		
+		}
+		
+		AI_general_illiteracy = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_general_illiteracy
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.20
+            }
+		
+		}
+	
+	}
+	
+	military_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_complete_military_modernization = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_complete_military_modernization
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                army_speed_factor = 0.15
+				army_attack_factor = 0.10
+				army_defence_factor = 0.075
+				land_doctrine_cost_factor = -0.15
+				air_doctrine_cost_factor = -0.15
+				naval_doctrine_cost_factor = -0.15
+            }
+		
+		}
+		
+		AI_high_military_modernization = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_high_military_modernization
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                army_speed_factor = 0.10
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				land_doctrine_cost_factor = -0.10
+				air_doctrine_cost_factor = -0.10
+				naval_doctrine_cost_factor = -0.10
+            }
+		
+		}
+		
+		AI_low_military_modernization = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_low_military_modernization
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                army_speed_factor = 0.05
+				army_attack_factor = 0.025
+				army_defence_factor = 0.025
+				land_doctrine_cost_factor = -0.05
+				air_doctrine_cost_factor = -0.05
+				naval_doctrine_cost_factor = -0.05
+            }
+		
+		}
+		
+		AI_ww_military = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_ww_military
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                army_speed_factor = -0.10
+				army_attack_factor = -0.10
+				army_defence_factor = 0.10
+				land_doctrine_cost_factor = 0.10
+				air_doctrine_cost_factor = 0.10
+				naval_doctrine_cost_factor = 0.10
+            }
+		
+		}
+		
+		AI_pre_ww_military = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_pre_ww_military
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                army_speed_factor = -0.20
+				army_attack_factor = -0.15
+				army_defence_factor = 0.15
+				land_doctrine_cost_factor = 0.20
+				air_doctrine_cost_factor = 0.20
+				naval_doctrine_cost_factor = 0.20
+            }
+		
+		}
+	
+	}
+	
+	industry_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_advanced_industrial_technology = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_advanced_industrial_technology
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				production_factory_start_efficiency_factor = 0.15
+            }
+		
+		}
+		
+		AI_modern_industrial_technology = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_modern_industrial_technology
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                industrial_capacity_factory = 0.075
+				industrial_capacity_dockyard = 0.075
+				production_speed_buildings_factor = 0.075
+				production_factory_start_efficiency_factor = 0.075
+            }
+		
+		}
+		
+		AI_basic_industrial_technology = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_basic_industrial_technology
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+            }
+		
+		}
+		
+		AI_backward_industrial_technology = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_backward_industrial_technology
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.10
+				production_factory_start_efficiency_factor = -0.10
+            }
+		
+		}
+		
+		AI_pre_ir_industrial_technology = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_pre_ir_industrial_technology
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				production_speed_buildings_factor = -0.20
+				production_factory_start_efficiency_factor = -0.20
+            }
+		
+		}
+	
+	}
+	
+	research_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_top_academic_circles = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_top_academic_circles
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = 0.10
+				line_change_production_efficiency_factor = 0.10
+				political_power_gain = 0.10
+            }
+		
+		}
+		
+		AI_modern_research = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_modern_research
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = 0.05
+            }
+		
+		}
+		
+		AI_outdated_research = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_outdated_research
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.05
+				line_change_production_efficiency_factor = -0.05
+            }
+		
+		}
+		
+		AI_backward_research = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_backward_research
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.10
+				line_change_production_efficiency_factor = -0.10
+            }
+		
+		}
+		
+		AI_pre_ir_research = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_pre_ir_research
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                research_speed_factor = -0.20
+				line_change_production_efficiency_factor = -0.20
+				political_power_gain = -0.10
+            }
+		
+		}
+	
+	}
+	
+	economy_level = {
+		law = yes
+		use_list_view = yes
+	
+		AI_economy_soar = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_soar
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = 0.10
+				production_factory_start_efficiency_factor = 0.10
+				production_speed_industrial_complex_factor = 0.20
+				production_speed_infrastructure_factor = 0.20
+            }
+		
+		}
+		
+		AI_economy_growth = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_growth
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = 0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_speed_industrial_complex_factor = 0.10
+				production_speed_infrastructure_factor = 0.10
+            }
+		
+		}
+		
+		AI_economy_stagnation = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_stagnation
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = -0.05
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_infrastructure_factor = -0.05
+            }
+		
+		}
+		
+		AI_economy_downturn = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_downturn
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = -0.10
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_infrastructure_factor = -0.10
+            }
+		
+		}
+		
+		AI_economy_crisis = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_crisis
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = -0.20
+				production_speed_industrial_complex_factor = -0.20
+				production_speed_infrastructure_factor = -0.20
+            }
+		
+		}	
+		
+		AI_economy_collapse = {
+		    
+			cost = 0
+			removal_cost = -1
+			level = 7
+			
+			picture = AI_economy_collapse
+			
+            cancel_if_invalid = no
+			
+			modifier = {
+                production_factory_max_efficiency_factor = -0.40
+				production_speed_industrial_complex_factor = -0.40
+				production_speed_infrastructure_factor = -0.40
+            }
+		
+		}
+	
+	}
+	
+}

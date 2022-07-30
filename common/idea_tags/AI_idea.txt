@@ -70,6 +70,19 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
+	social_dev = {
+		slot = poverty_level
+		slot = illiteracy_level
+		slot = military_level
+		slot = industry_level
+		slot = research_level
+		slot = economy_level
+		
+		
+		cost = 150
+		removal_cost = 0
+	}
+	
 	research_production = {
 		slot = tank_manufacturer
 		slot = naval_manufacturer

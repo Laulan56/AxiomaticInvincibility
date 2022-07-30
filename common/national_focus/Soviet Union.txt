@@ -17,19 +17,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOV_yu_nande_tanpan
-		icon = GFX_goal_unknown
-		cost = 5.00
-		x = 28
-		y = 2
-
-	}
-	focus = {
 		id = SOV_zhangduoren
-		icon = GFX_goal_unknown
+		icon = GFX_goal_sovit_chairman
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_zuihoude_baolei
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_zhangduoren"
+			custom_effect_tooltip = SOV_zhangduoren_tt
 		}
 		x = 6
 		y = 1
@@ -37,13 +33,17 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_daguanjia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_1918_chengnuo
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_zhangduoren
 		}
 		mutually_exclusive = {
 			focus = SOV_leninde_xuesheng
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_daguanjia"
+			custom_effect_tooltip = SOV_daguanjia_tt
 		}
 		x = 3
 		y = 2
@@ -51,10 +51,14 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_gonggu_tongyizhenxian
-		icon = GFX_goal_unknown
+		icon = GFX_goal_chongzu_zhenxian
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_daguanjia
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_gonggu_tongyizhenxian"
+			custom_effect_tooltip = SOV_gonggu_tongyizhenxian_tt
 		}
 		x = 1
 		y = 3
@@ -62,10 +66,14 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_gaishan_zhengzhi_qifen
-		icon = GFX_goal_unknown
+		icon = GFX_goal_zhengzhi_songbang
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_daguanjia
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_gaishan_zhengzhi_qifen"
+			custom_effect_tooltip = SOV_gaishan_zhengzhi_qifen_tt
 		}
 		x = 3
 		y = 3
@@ -73,7 +81,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_zhiliao_youzhibing
-		icon = GFX_goal_unknown
+		icon = GFX_goal_zuopai_bizui
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_gaishan_zhengzhi_qifen
@@ -81,16 +89,24 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_gonggu_tongyizhenxian
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_zhiliao_youzhibing"
+			custom_effect_tooltip = SOV_zhiliao_youzhibing_tt
+		}
 		x = 1
 		y = 4
 
 	}
 	focus = {
 		id = SOV_daji_yuanlaoshili
-		icon = GFX_goal_unknown
+		icon = GFX_goal_anfu_yuanlao
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_daguanjia
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_daji_yuanlaoshili"
+			custom_effect_tooltip = SOV_daji_yuanlaoshili_tt
 		}
 		x = 5
 		y = 3
@@ -98,7 +114,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_yinjin_qingnian_ganbu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_yinru_qingnian
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_gaishan_zhengzhi_qifen
@@ -106,13 +122,17 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_daji_yuanlaoshili
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_yinjin_qingnian_ganbu"
+			custom_effect_tooltip = SOV_yinjin_qingnian_ganbu_tt
+		}
 		x = 5
 		y = 4
 
 	}
 	focus = {
 		id = SOV_xietiao_gefang_zuzhi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_eryue_youling_yingrao
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_zhiliao_youzhibing
@@ -120,13 +140,32 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_yinjin_qingnian_ganbu
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_xietiao_gefang_zuzhi"
+			custom_effect_tooltip = SOV_xietiao_gefang_zuzhi_tt
+		}
 		x = 3
 		y = 5
 
 	}
 	focus = {
+		id = SOV_hongse_xianshizhengzhi
+		icon = GFX_goal_timing_jiaminiefu
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_xietiao_gefang_zuzhi
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_hongse_xianshizhengzhi"
+			custom_effect_tooltip = SOV_hongse_xianshizhengzhi_tt
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
 		id = SOV_leninde_xuesheng
-		icon = GFX_goal_unknown
+		icon = GFX_goal_chongyan_geming
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_zhangduoren
@@ -134,16 +173,24 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = SOV_daguanjia
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_leninde_xuesheng"
+			custom_effect_tooltip = SOV_leninde_xuesheng_tt
+		}
 		x = 9
 		y = 2
 
 	}
 	focus = {
 		id = SOV_hebing_zhengdang
-		icon = GFX_goal_unknown
+		icon = GFX_goal_zhuanzheng
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_leninde_xuesheng
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_hebing_zhengdang"
+			custom_effect_tooltip = SOV_hebing_zhengdang_tt
 		}
 		x = 8
 		y = 3
@@ -151,10 +198,14 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_queli_bu_diwei
-		icon = GFX_goal_unknown
+		icon = GFX_goal_baquan
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_leninde_xuesheng
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_queli_bu_diwei"
+			custom_effect_tooltip = SOV_queli_bu_diwei_tt
 		}
 		x = 10
 		y = 3
@@ -162,13 +213,17 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_kaifang_paibie_huodong
-		icon = GFX_goal_unknown
+		icon = GFX_goal_ruohua_zhixu
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_hebing_zhengdang
 		}
 		prerequisite = {
 			focus = SOV_queli_bu_diwei
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_kaifang_paibie_huodong"
+			custom_effect_tooltip = SOV_kaifang_paibie_huodong_tt
 		}
 		x = 9
 		y = 4
@@ -176,13 +231,17 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_qiangdiao_dangnei_minzhu
-		icon = GFX_goal_unknown
+		icon = GFX_goal_jiejifa_yuanze
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_hebing_zhengdang
 		}
 		prerequisite = {
 			focus = SOV_queli_bu_diwei
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_qiangdiao_dangnei_minzhu"
+			custom_effect_tooltip = SOV_qiangdiao_dangnei_minzhu_tt
 		}
 		x = 7
 		y = 4
@@ -190,7 +249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SOV_guanche_minzhujizhongzhi
-		icon = GFX_goal_unknown
+		icon = GFX_goal_fan_dengjizhuyi
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_hebing_zhengdang
@@ -198,13 +257,17 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_queli_bu_diwei
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_guanche_minzhujizhongzhi"
+			custom_effect_tooltip = SOV_guanche_minzhujizhongzhi_tt
+		}
 		x = 11
 		y = 4
 
 	}
 	focus = {
 		id = SOV_tongyi_liliang
-		icon = GFX_goal_unknown
+		icon = GFX_goal_geming_shiwunian
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_qiangdiao_dangnei_minzhu
@@ -215,18 +278,178 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_guanche_minzhujizhongzhi
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_tongyi_liliang"
+			custom_effect_tooltip = SOV_tongyi_liliang_tt
+		}
 		x = 9
 		y = 5
 
 	}
 	focus = {
 		id = SOV_quanmian_buhua
-		icon = GFX_goal_unknown
+		icon = GFX_goal_rumeng_yiruhuan
 		cost = 5.00
 		prerequisite = {
 			focus = SOV_tongyi_liliang
 		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_quanmian_buhua"
+			custom_effect_tooltip = SOV_quanmian_buhua_tt
+		}
 		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = SOV_qiangdi_huansi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_zuihoude_baolei
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_qiangdi_huansi"
+			custom_effect_tooltip = SOV_qiangdi_huansi_tt
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = SOV_mingque_geming_dixian
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_qiangdi_huansi
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_mingque_geming_dixian"
+			custom_effect_tooltip = SOV_mingque_geming_dixian_tt
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = SOV_guojizhuyi_yuanze
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_qiangdi_huansi
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_guojizhuyi_yuanze"
+			custom_effect_tooltip = SOV_guojizhuyi_yuanze_tt
+		}
+		x = 31
+		y = 2
+
+	}
+	focus = {
+		id = SOV_yu_nande_tanpan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		x = 28
+		y = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_yu_nande_tanpan"
+			custom_effect_tooltip = SOV_yu_nande_tanpan_tt
+		}
+	}
+	focus = {
+		id = SOV_baifang_munihei
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_baifang_munihei"
+			custom_effect_tooltip = SOV_baifang_munihei_tt
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = SOV_kuanshu_wenhepai
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_kuanshu_wenhepai"
+			custom_effect_tooltip = SOV_kuanshu_wenhepai_tt
+		}
+		x = 28
+		y = 3
+
+	}
+	focus = {
+		id = SOV_qiangdiao_gongshi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_yu_nande_tanpan
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_qiangdiao_gongshi"
+			custom_effect_tooltip = SOV_qiangdiao_gongshi_tt
+		}
+		x = 30
+		y = 3
+
+	}
+	focus = {
+		id = SOV_tongzhijian_youyi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_baifang_munihei
+		}
+		prerequisite = {
+			focus = SOV_kuanshu_wenhepai
+		}
+		prerequisite = {
+			focus = SOV_qiangdiao_gongshi
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_tongzhijian_youyi"
+			custom_effect_tooltip = SOV_tongzhijian_youyi_tt
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = SOV_munihei_xieding
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_tongzhijian_youyi
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_munihei_xieding"
+			custom_effect_tooltip = SOV_munihei_xieding_tt
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = SOV_changshuyikouqi
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = SOV_munihei_xieding
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SOV_changshuyikouqi"
+			custom_effect_tooltip = SOV_changshuyikouqi_tt
+		}
+		x = 28
 		y = 6
 
 	}
@@ -347,122 +570,6 @@ focus_tree = {
 		}
 		x = 17
 		y = 5
-
-	}
-	focus = {
-		id = SOV_qiangdi_huansi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_zuihoude_baolei
-		}
-		x = 28
-		y = 1
-
-	}
-	focus = {
-		id = SOV_mingque_geming_dixian
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_qiangdi_huansi
-		}
-		x = 25
-		y = 2
-
-	}
-	focus = {
-		id = SOV_baifang_munihei
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_yu_nande_tanpan
-		}
-		x = 26
-		y = 3
-
-	}
-	focus = {
-		id = SOV_kuanshu_wenhepai
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_yu_nande_tanpan
-		}
-		x = 28
-		y = 3
-
-	}
-	focus = {
-		id = SOV_qiangdiao_gongshi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_yu_nande_tanpan
-		}
-		x = 30
-		y = 3
-
-	}
-	focus = {
-		id = SOV_tongzhijian_youyi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_baifang_munihei
-		}
-		prerequisite = {
-			focus = SOV_kuanshu_wenhepai
-		}
-		prerequisite = {
-			focus = SOV_qiangdiao_gongshi
-		}
-		x = 28
-		y = 4
-
-	}
-	focus = {
-		id = SOV_munihei_xieding
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_tongzhijian_youyi
-		}
-		x = 28
-		y = 5
-
-	}
-	focus = {
-		id = SOV_changshuyikouqi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_munihei_xieding
-		}
-		x = 28
-		y = 6
-
-	}
-	focus = {
-		id = SOV_hongse_xianshizhengzhi
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_xietiao_gefang_zuzhi
-		}
-		x = 3
-		y = 6
-
-	}
-	focus = {
-		id = SOV_guojizhuyi_yuanze
-		icon = GFX_goal_unknown
-		cost = 5.00
-		prerequisite = {
-			focus = SOV_qiangdi_huansi
-		}
-		x = 31
-		y = 2
 
 	}
 	focus = {

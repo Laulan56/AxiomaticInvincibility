@@ -1,0 +1,72 @@
+spriteTypes = {
+	
+	###Sovit Union###
+	SpriteType = {
+		name = "GFX_goal_sovit_chairman"
+		texturefile = "gfx/interface/goals/SOV_sovit_chairman.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_1918_chengnuo"
+		texturefile = "gfx/interface/goals/SOV_1918_chengnuo.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_chongzu_zhenxian"
+		texturefile = "gfx/interface/goals/SOV_chongzu_zhenxian.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_zhengzhi_songbang"
+		texturefile = "gfx/interface/goals/SOV_zhengzhi_songbang.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_anfu_yuanlao"
+		texturefile = "gfx/interface/goals/SOV_anfu_yuanlao.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_zuopai_bizui"
+		texturefile = "gfx/interface/goals/SOV_zuopai_bizui.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_yinru_qingnian"
+		texturefile = "gfx/interface/goals/SOV_yinru_qingnian.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_eryue_youling_yingrao"
+		texturefile = "gfx/interface/goals/SOV_eryue_youling_yingrao.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_timing_jiaminiefu"
+		texturefile = "gfx/interface/goals/SOV_timing_jiaminiefu.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_chongyan_geming"
+		texturefile = "gfx/interface/goals/SOV_chongyan_geming.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_zhuanzheng"
+		texturefile = "gfx/interface/goals/SOV_zhuanzheng.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_baquan"
+		texturefile = "gfx/interface/goals/SOV_baquan.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_jiejifa_yuanze"
+		texturefile = "gfx/interface/goals/SOV_jiejifa_yuanze.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_ruohua_zhixu"
+		texturefile = "gfx/interface/goals/SOV_ruohua_zhixu.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_fan_dengjizhuyi"
+		texturefile = "gfx/interface/goals/SOV_fan_dengjizhuyi.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_geming_shiwunian"
+		texturefile = "gfx/interface/goals/SOV_geming_shiwunian.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_rumeng_yiruhuan"
+		texturefile = "gfx/interface/goals/SOV_rumeng_yiruhuan.dds"
+	}
+}
